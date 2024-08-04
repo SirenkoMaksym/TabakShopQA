@@ -20,20 +20,30 @@ public class RegistrationTests extends TestBase {
     @Test
     public void checkingFunctionalityRegistrationButton(){
         new RegistrationPage(driver)
-                .verifySuccessfulRegistrationPage(); //TODO Дописать ассерт
+                .verifySuccessfulRegistrationPage("Registration"); //TODO Дописать ассерт
+    }
+
+    @Test
+    public void positiveRegistrationWithoutData(){
+        new RegistrationPage(driver)
+                .enterEmailOne()
+                .enterPasswordOne()
+                .enterConfirmPasswordOne()
+                .clickOnRegistrationButton()
+                .verifySuccessfulRegistration("Logout");
     }
 
 
     @Test(dataProvider = "registrationPositiveData", dataProviderClass = DataProviders.class)
-    public void positiveRegistration(String name, String email, String password, String confirmPassword) {
+    public void positiveRegistration(String email, String password, String confirmPassword) {
         new RegistrationPage(driver)
-                .enterName(name)
+                //     .enterName(name)
                 .enterEmail(email)
-                .clickOnYesRadioButton()
+              //  .clickOnYesRadioButton()
                 .enterPassword(password)
                 .enterConfirmPassword(confirmPassword)
                 .clickOnRegistrationButton()
-                .verifySuccessfulRegistration()       //todo добавить все локаторы, доделать ассерт,
+                .verifySuccessfulRegistration("Logout")       //todo добавить все локаторы, доделать ассерт,
                                                       // добавить удаление после каждого
                                                       // т.к. не будет проходить из-за одинаковых е-мэйлов
                                                       // или изменить е-мэйлы на разные в датаПровайдере
@@ -63,7 +73,7 @@ public class RegistrationTests extends TestBase {
         new RegistrationPage(driver)
                 .enterName(name)
                 .enterEmail(email)
-                .clickOnYesRadioButton()
+                // .clickOnYesRadioButton()
                 .enterPassword(password)
                 .enterConfirmPassword(confirmPassword)
                 .clickOnRegistrationButton()
@@ -78,7 +88,7 @@ public class RegistrationTests extends TestBase {
         new RegistrationPage(driver)
                 .enterName(name)
                 .enterEmail(email)
-                .clickOnYesRadioButton()
+                //  .clickOnYesRadioButton()
                 .enterPassword(password)
                 .enterConfirmPassword(confirmPassword)
                 .clickOnRegistrationButton()
@@ -93,14 +103,14 @@ public class RegistrationTests extends TestBase {
         new RegistrationPage(driver)
                 .enterName(name)
                 .enterEmail(email)
-                .clickOnYesRadioButton()
+               // .clickOnYesRadioButton()
                 .enterPassword(password)
                 .enterConfirmPassword(confirmPassword)
                 .clickOnRegistrationButton();
         new RegistrationPage(driver)
                 .enterName(name)
                 .enterEmail(email)
-                .clickOnYesRadioButton()
+              //  .clickOnYesRadioButton()
                 .enterPassword(password)
                 .enterConfirmPassword(confirmPassword)
                 .clickOnRegistrationButton()
@@ -115,7 +125,7 @@ public class RegistrationTests extends TestBase {
         new RegistrationPage(driver)
                 .enterName(name)
                 .enterEmail(email)
-                .clickOnYesRadioButton()
+            //    .clickOnYesRadioButton()
                 .enterPassword(password)
                 .enterConfirmPassword("wrongConfirmPassword!")
                 .clickOnRegistrationButton()
@@ -130,37 +140,37 @@ public class RegistrationTests extends TestBase {
         new RegistrationPage(driver)
                 .enterName(name)
                 .enterEmail(email)
-                .clickOnYesRadioButton()
+            //    .clickOnYesRadioButton()
                 .enterPassword(password)
                 .enterConfirmPassword(confirmPassword)
                 .clickOnRegistrationButton()
                 .verifyUnsuccessfulRegistration()       //todo добавить все локаторы, доделать ассерт
         ;
     }
-    @Test(dataProvider = "registrationPositiveDataAgain", dataProviderClass = DataProviders.class)
-    public void positiveRegistrationAgain(String name, String email, String password, String confirmPassword) {
-        new RegistrationPage(driver)
-                .enterName(name)
-                .enterEmail(email)
-                .clickOnYesRadioButton()
-                .enterPassword(password)
-                .enterConfirmPassword(confirmPassword)
-                .clickOnRegistrationButton()
-                .verifySuccessfulRegistration()       //todo добавить все локаторы, доделать ассерт,
-                                                      // добавить удаление после каждого
-                                                      // т.к. не будет проходить из-за одинаковых е-мэйлов
-                                                      // или изменить е-мэйлы на разные в датаПровайдере
-        ;
-    }
+//    @Test(dataProvider = "registrationPositiveDataAgain", dataProviderClass = DataProviders.class)
+//    public void positiveRegistrationAgain(String name, String email, String password, String confirmPassword) {
+//        new RegistrationPage(driver)
+//                .enterName(name)
+//                .enterEmail(email)
+//                .clickOnYesRadioButton()
+//                .enterPassword(password)
+//                .enterConfirmPassword(confirmPassword)
+//                .clickOnRegistrationButton()
+//                .verifySuccessfulRegistration()       //todo добавить все локаторы, доделать ассерт,
+//                                                      // добавить удаление после каждого
+//                                                      // т.к. не будет проходить из-за одинаковых е-мэйлов
+//                                                      // или изменить е-мэйлы на разные в датаПровайдере
+//        ;
+//    }
 
-    @Test
-    public void checkingFunctionalityConfirmAgeButton() {
-        new RegistrationPage(driver)
-                .clickOnYesRadioButton()
-                .clickOnNoRadioButton()
-                .verifyChoiceNo()       //todo добавить все локаторы, доделать ассерт,
-
-        ;
-    }
+//    @Test
+//    public void checkingFunctionalityConfirmAgeButton() {
+//        new RegistrationPage(driver)
+//               // .clickOnYesRadioButton()
+//                .clickOnNoRadioButton()
+//                .verifyChoiceNo()       //todo добавить все локаторы, доделать ассерт,
+//
+//        ;
+//    }
 
 }

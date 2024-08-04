@@ -14,11 +14,19 @@ public class HomePage extends BasePage {
         super(driver);
     }
 
-    @FindBy()
+    @FindBy(linkText = "Register")
     WebElement registrationButton;
 
     public RegistrationPage clickOnRegistrationButton() {
         click(registrationButton);
         return new RegistrationPage(driver);
+    }
+
+    @FindBy(linkText = "Sign in")
+    WebElement signInLink;
+
+    public LoginUserPage clickOnSignInLink() {
+        click(signInLink);
+        return new LoginUserPage(driver);
     }
 }
