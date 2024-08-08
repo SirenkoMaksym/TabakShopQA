@@ -48,7 +48,7 @@ public class TempEmailService {
                     JSONObject message = messages.getJSONObject(0);
                     int messageId = message.getInt("id");
                     String messageBody = getMessageBody(login, domain, messageId);
-                    System.out.println("Message Body: " + messageBody); // Отладочное сообщение
+                    System.out.println("Message Body: " + messageBody);
                     return extractVerificationLink(messageBody);
                 }
                 retries++;
@@ -75,14 +75,13 @@ public class TempEmailService {
 
     public static boolean isAccountActivated(String verificationLink) {
         try (CloseableHttpClient httpClient = HttpClients.createDefault()) {
-            // Добавляем задержку перед проверкой активации аккаунта
-            Thread.sleep(WAIT_TIME_MS); // Задержка 5 секунд
+            Thread.sleep(WAIT_TIME_MS);
 
             HttpGet request = new HttpGet(verificationLink);
             HttpResponse response = httpClient.execute(request);
             String responseBody = EntityUtils.toString(response.getEntity());
 
-            // Проверка, что аккаунт успешно активирован
+
             return responseBody.contains("Аккаунт успешно активирован");
         } catch (IOException | InterruptedException e) {
             throw new RuntimeException("Failed to activate account", e);
@@ -90,14 +89,14 @@ public class TempEmailService {
     }
 
     private static String extractVerificationLink(String messageBody) {
-        System.out.println("Extracting from message body using Jsoup"); // Отладочное сообщение
+        System.out.println("Extracting from message body using Jsoup");
 
         Document doc = Jsoup.parse(messageBody);
         Element linkElement = doc.selectFirst("a[href*='/api/author/account-activate/']");
 
         if (linkElement != null) {
             String verificationLink = linkElement.attr("href");
-            System.out.println("Found verification link using Jsoup: " + verificationLink); // Отладочное сообщение
+            System.out.println("Found verification link using Jsoup: " + verificationLink);
             return verificationLink;
         }
 
