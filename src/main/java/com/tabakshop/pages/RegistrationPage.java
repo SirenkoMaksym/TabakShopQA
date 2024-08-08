@@ -48,19 +48,24 @@ public class RegistrationPage extends BasePage {
         return this;
     }
 
-    @FindBy(css = "button._button_5smy3_53[type='submit']")
-    WebElement registrationButton;
+    @FindBy(xpath = "//button[contains(text(), 'Register')]")
+    WebElement registerButton;
+
+
 
     public RegistrationPage clickOnRegistrationButton() {
-        pause(5000);
-        click(registrationButton);
+        moveWithJs(registerButton,0,100);
+        pause(2000);
+        click(registerButton);
         return new RegistrationPage(driver);
     }
 
-    @FindBy(linkText = "Logout")
+    @FindBy(xpath = "//button[contains(text(),'Logout')]")
     WebElement logoutLink;
 
     public void verifySuccessfulRegistration(String text) {
+        pause(2000);
+        moveWithJs(logoutLink,0,-100);
         Assert.assertTrue(logoutLink.getText().equals(text));
 
 
@@ -92,13 +97,30 @@ public class RegistrationPage extends BasePage {
         type(inputConfirmPassword,"SuperPassword1!");
         return this;
     }
-    //    @FindBy()
-//    WebElement radioButton;
-//
-//    public RegistrationPage clickOnYesRadioButton() {
-//        click(radioButton);
-//        return this;
-//    }
+        //@FindBy(xpath = "div[@class='_formGroup_9xrab_32']//label[contains(text(), 'I am at least 18 years old')]//input[@class='_checkbox_9xrab_44']/n")
+   @FindBy(xpath = "//form/div[4]//input[@type='checkbox']")
+    WebElement checkBox;
+
+    public RegistrationPage clickOnCheckBox() {
+        click(checkBox);
+        return this;
+    }
+    @FindBy(xpath = "//form/div[5]//input[@type='checkbox']")
+    WebElement checkBox2;
+
+    public RegistrationPage clickOnCheckBo2() {
+        click(checkBox2);
+        return this;
+    }
+
+    @FindBy(xpath = "//button[contains(text(),'Return to home page')]")
+    WebElement confirmButton;
+
+    public RegistrationPage clickOnConfirmButton() {
+        click(confirmButton);
+
+        return this;
+    }
 }
 //    @FindBy()
 //    WebElement radioButtonNo;

@@ -8,6 +8,8 @@ package com.tabakshop.tests;
 import com.tabakshop.pages.HomePage;
 import com.tabakshop.pages.RegistrationPage;
 import com.tabakshop.utils.DataProviders;
+import com.tabakshop.utils.TempEmailService;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -33,7 +35,34 @@ public class RegistrationTests extends TestBase {
                 .verifySuccessfulRegistration("Logout");
     }
 
+    @Test
+    public void massRegistrationWithEmailConfirmation() {
+        for (int i = 0; i < 2; i++) {
+            String tempEmail = TempEmailService.generateTempEmail();
+            new RegistrationPage(driver)
+                    .enterEmail(tempEmail)
+                    .enterPasswordOne()
+                    .enterConfirmPasswordOne()
+                    .clickOnCheckBox()
+                    .clickOnCheckBo2()
+                    .clickOnRegistrationButton()
+                    .clickOnConfirmButton()
+                    .verifySuccessfulRegistration("Logout");
 
+            confirmRegistration(tempEmail);
+        }
+    }
+
+    private void confirmRegistration(String email) {
+        String verificationLink = TempEmailService.getVerificationLink(email);
+        System.out.println("Verification Link: " + verificationLink);
+
+        boolean isActivated = TempEmailService.isAccountActivated(verificationLink);
+        Assert.assertTrue(isActivated, "Аккаунт, успешно, активирован");
+    }
+
+
+    // loombook создать объекты. чтобы не было сстрингов. так это по-детски.
     @Test(dataProvider = "registrationPositiveData", dataProviderClass = DataProviders.class)
     public void positiveRegistration(String email, String password, String confirmPassword) {
         new RegistrationPage(driver)
@@ -47,6 +76,7 @@ public class RegistrationTests extends TestBase {
                                                       // добавить удаление после каждого
                                                       // т.к. не будет проходить из-за одинаковых е-мэйлов
                                                       // или изменить е-мэйлы на разные в датаПровайдере
+                //
         ;
     }
 
