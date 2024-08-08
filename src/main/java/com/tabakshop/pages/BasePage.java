@@ -37,6 +37,10 @@ public abstract class BasePage {
             throw new RuntimeException(e);
         }
     }
+    public void moveWithJs(WebElement element, int x, int y) {
+        js.executeScript("window.scrollBy(" + x + " , " + y +")");
+
+    }
 
     public void type(WebElement element, String text) {
         if (text != null) {
