@@ -16,17 +16,33 @@ import java.util.Iterator;
 import java.util.List;
 
 public class DataProviders {
-    @DataProvider(name = "registrationPositiveData")
-    public Iterator<Object[]> registrationNewUserFromCsv() throws IOException {
+
+//    @DataProvider(name = "registrationPositiveData")
+//    public Iterator<Object[]> registrationNewUserFromCsv() throws IOException {
+//        List<Object[]> list = new ArrayList<>();
+//        BufferedReader reader = new BufferedReader(new FileReader
+//                (new File("src/test/resources/positiveRegistration.csv")));
+//        String line = reader.readLine();
+//
+//        while (line != null) {
+//            list.add(line.split(","));
+//            line = reader.readLine();
+//        }
+//        return list.iterator();
+//    }
+
+    @DataProvider(name = "positiveEmail")
+    public Iterator<Object[]> registrationNewUser1FromCsv() throws IOException {
         List<Object[]> list = new ArrayList<>();
         BufferedReader reader = new BufferedReader(new FileReader
-                (new File("src/test/resources/positiveRegistration.csv")));
+                (new File("src/test/resources/positiveEmail.csv")));
         String line = reader.readLine();
 
         while (line != null) {
-            list.add(line.split(","));
+            list.add(new Object[]{line.trim()});
             line = reader.readLine();
         }
+        reader.close();
         return list.iterator();
     }
     @DataProvider(name = "registrationNegativeEmail")
@@ -37,9 +53,10 @@ public class DataProviders {
         String line = reader.readLine();
 
         while (line != null) {
-            list.add(line.split(","));
+            list.add(new Object[]{line.trim()});
             line = reader.readLine();
         }
+        reader.close();
         return list.iterator();
     }
     @DataProvider(name = "registrationNegativePassword")
@@ -50,48 +67,10 @@ public class DataProviders {
         String line = reader.readLine();
 
         while (line != null) {
-            list.add(line.split(","));
+            list.add(new Object[]{line.trim()});
             line = reader.readLine();
         }
-        return list.iterator();
-    }
-    @DataProvider(name = "registrationPositiveSmall")
-    public Iterator<Object[]> registrationNewUserSmallFromCsv() throws IOException {
-        List<Object[]> list = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new FileReader
-                (new File("src/test/resources/positiveRegSmall.csv")));
-        String line = reader.readLine();
-
-        while (line != null) {
-            list.add(line.split(","));
-            line = reader.readLine();
-        }
-        return list.iterator();
-    }
-    @DataProvider(name = "registrationNegativeName")
-    public Iterator<Object[]> registrationNewUserWithWrongNameFromCsv() throws IOException {
-        List<Object[]> list = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new FileReader
-                (new File("src/test/resources/wrongName.csv")));
-        String line = reader.readLine();
-
-        while (line != null) {
-            list.add(line.split(","));
-            line = reader.readLine();
-        }
-        return list.iterator();
-    }
-    @DataProvider(name = "registrationPositiveDataAgain")
-    public Iterator<Object[]> registrationNewUserAgainFromCsv() throws IOException {
-        List<Object[]> list = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new FileReader
-                (new File("src/test/resources/positiveRegAgain.csv")));
-        String line = reader.readLine();
-
-        while (line != null) {
-            list.add(line.split(","));
-            line = reader.readLine();
-        }
+        reader.close();
         return list.iterator();
     }
 

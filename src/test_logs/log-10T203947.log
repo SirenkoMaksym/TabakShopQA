@@ -1,0 +1,49 @@
+20:39:47.757 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\IMT - Teilnehmer\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+20:39:47.836 [main] INFO  com.tabakshop.tests.TestBase - Start test: massRegistrationWithEmailConfirmation
+20:39:50.113 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+20:39:50.504 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+20:39:50.535 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Register
+20:39:50.599 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Register
+20:39:51.335 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+20:39:51.362 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+20:39:51.405 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+20:39:51.430 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+20:39:51.454 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+20:39:51.470 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+20:39:51.530 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+20:39:51.559 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+20:39:51.593 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+20:39:51.611 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+20:39:51.636 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+20:39:51.653 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+20:39:51.693 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+20:39:51.713 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+20:39:51.751 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+20:39:51.801 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+20:39:51.827 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+20:39:51.846 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+20:39:51.898 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[4]//input[@type='checkbox']
+20:39:51.918 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[4]//input[@type='checkbox']
+20:39:51.946 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[5]//input[@type='checkbox']
+20:39:51.966 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[5]//input[@type='checkbox']
+20:39:54.016 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(), 'Register')]
+20:39:54.036 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(), 'Register')]
+20:39:54.074 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(),'Return to home page')]
+20:39:56.123 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(),'Return to home page')]
+20:40:08.403 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+20:40:18.449 [main] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+20:40:18.449 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+20:40:18.449 [main] INFO  com.tabakshop.utils.MyListener - Method--> findElement
+20:40:18.450 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+20:40:18.451 [main] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=127.0.6533.99)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e775180192d2a668f44203037936cb27, findElement {using=id, value=email}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.99, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58170}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58170/devtoo..., se:cdpVersion: 127.0.6533.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e775180192d2a668f44203037936cb27
+20:40:18.451 [main] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1360.png

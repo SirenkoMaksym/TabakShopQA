@@ -1,0 +1,24 @@
+19:56:52.866 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\IMT - Teilnehmer\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+19:56:53.057 [main] INFO  com.tabakshop.tests.TestBase - Start test: loginPositive
+19:56:56.082 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+19:56:56.387 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+19:56:56.410 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+19:56:56.533 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+19:56:56.609 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+19:56:56.687 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+19:56:56.736 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+19:56:56.764 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+19:56:56.794 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+19:56:56.846 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+19:56:56.911 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+19:56:56.930 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+19:56:56.973 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+19:56:56.990 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+19:56:57.014 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+19:56:57.031 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+19:56:57.079 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: button._button_1ptto_54[type='submit']
+19:56:57.131 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: button._button_1ptto_54[type='submit']
+19:56:57.204 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Logout
+19:56:57.764 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Logout

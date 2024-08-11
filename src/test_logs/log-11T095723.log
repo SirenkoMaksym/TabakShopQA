@@ -1,0 +1,32 @@
+09:57:24.092 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\IMT - Teilnehmer\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+09:57:24.173 [main] INFO  com.tabakshop.tests.TestBase - Start test: negativeRegistrationWithoutAgeConfirmation
+09:57:26.533 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+09:57:26.878 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+09:57:26.909 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[@class='_navLink_1jip9_35'][2]
+09:57:26.973 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[@class='_navLink_1jip9_35'][2]
+09:57:27.570 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+09:57:27.594 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+09:57:27.636 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+09:57:27.659 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+09:57:27.684 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+09:57:27.700 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+09:57:27.764 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+09:57:27.787 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+09:57:27.827 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+09:57:27.844 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+09:57:27.865 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+09:57:27.878 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+09:57:27.911 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+09:57:27.934 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+09:57:27.976 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+09:57:28.004 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+09:57:28.032 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+09:57:28.053 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+09:57:28.094 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[5]//input[@type='checkbox']
+09:57:28.118 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[5]//input[@type='checkbox']
+09:57:30.156 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(), 'Register')]
+09:57:30.178 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(), 'Register')]
+09:57:30.215 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[4]//input[@type='checkbox']
+09:57:30.240 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[4]//input[@type='checkbox']

@@ -1,0 +1,43 @@
+19:57:41.911 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\IMT - Teilnehmer\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+19:57:42.001 [main] INFO  com.tabakshop.tests.TestBase - Start test: positiveRegistrationWithoutData
+19:57:44.488 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+19:57:45.611 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+19:57:45.635 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Register
+19:57:45.726 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Register
+19:57:45.822 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+19:57:45.859 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+19:57:45.915 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+19:57:45.936 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+19:57:45.968 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+19:57:45.992 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+19:57:46.082 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+19:57:46.108 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+19:57:46.145 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+19:57:46.165 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+19:57:46.190 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+19:57:46.206 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+19:57:46.250 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+19:57:46.271 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+19:57:46.307 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+19:57:46.330 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+19:57:46.355 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+19:57:46.376 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+19:57:51.437 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: button._button_5smy3_53[type='submit']
+19:57:51.454 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: button._button_5smy3_53[type='submit']
+19:57:51.494 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Logout
+19:58:01.539 [main] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+19:58:01.540 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+19:58:01.540 [main] INFO  com.tabakshop.utils.MyListener - Method--> findElement
+19:58:01.540 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+19:58:01.541 [main] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Logout"}
+  (Session info: chrome=127.0.6533.89)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86a7f82dba663fad9da5abcde5e06b86, findElement {value=Logout, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53025}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53025/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86a7f82dba663fad9da5abcde5e06b86
+19:58:01.542 [main] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1334.png

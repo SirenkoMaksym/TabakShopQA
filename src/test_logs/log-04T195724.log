@@ -1,0 +1,10 @@
+19:57:24.973 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\IMT - Teilnehmer\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+19:57:25.052 [main] INFO  com.tabakshop.tests.TestBase - Start test: checkingFunctionalityRegistrationButton
+19:57:27.337 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+19:57:27.702 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+19:57:27.724 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Register
+19:57:27.806 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Register
+19:57:27.911 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.tagName: h2
+19:57:27.947 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.tagName: h2
