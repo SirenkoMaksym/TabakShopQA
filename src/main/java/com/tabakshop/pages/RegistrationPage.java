@@ -5,10 +5,17 @@
 
 package com.tabakshop.pages;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
+
+import java.util.Locale;
+
+import static org.testng.AssertJUnit.assertEquals;
 
 public class RegistrationPage extends BasePage {
     public RegistrationPage(WebDriver driver) {
@@ -40,6 +47,7 @@ public class RegistrationPage extends BasePage {
         return this;
     }
 
+
     @FindBy(id = "confirmPassword")
     WebElement inputConfirmPassword;
 
@@ -52,9 +60,8 @@ public class RegistrationPage extends BasePage {
     WebElement registerButton;
 
 
-
     public RegistrationPage clickOnRegistrationButton() {
-        moveWithJs(registerButton,0,100);
+        moveWithJs(registerButton, 0, 100);
         pause(2000);
         click(registerButton);
         return new RegistrationPage(driver);
@@ -65,14 +72,16 @@ public class RegistrationPage extends BasePage {
 
     public void verifySuccessfulRegistration(String text) {
         pause(2000);
-        moveWithJs(logoutLink,0,-100);
+        moveWithJs(logoutLink, 0, -100);
         Assert.assertTrue(logoutLink.getText().equals(text));
-
-
     }
 
-    public void verifyUnsuccessfulRegistration() {
+    public void verifyUnsuccessfulRegistrationWithWrongEmail() {
+        String validationMessage = inputEmail.getAttribute("validationMessage");
+        Assert.assertTrue(!validationMessage.isEmpty());
     }
+
+
     @FindBy(tagName = "h2")
     WebElement registrationTitle;
 
@@ -84,31 +93,33 @@ public class RegistrationPage extends BasePage {
     }
 
     public RegistrationPage enterEmailOne() {
-        type(inputEmail,"superTest5@mail.com");
+        type(inputEmail, "superTest5@mail.com");
         return this;
     }
 
     public RegistrationPage enterPasswordOne() {
-        type(inputPassword,"SuperPassword1!");
+        type(inputPassword, "SuperPassword1!");
         return this;
     }
 
     public RegistrationPage enterConfirmPasswordOne() {
-        type(inputConfirmPassword,"SuperPassword1!");
+        type(inputConfirmPassword, "SuperPassword1!");
         return this;
     }
-        //@FindBy(xpath = "div[@class='_formGroup_9xrab_32']//label[contains(text(), 'I am at least 18 years old')]//input[@class='_checkbox_9xrab_44']/n")
-   @FindBy(xpath = "//form/div[4]//input[@type='checkbox']")
+
+    //@FindBy(xpath = "div[@class='_formGroup_9xrab_32']//label[contains(text(), 'I am at least 18 years old')]//input[@class='_checkbox_9xrab_44']/n")
+    @FindBy(xpath = "//form/div[4]//input[@type='checkbox']")
     WebElement checkBox;
 
     public RegistrationPage clickOnCheckBox() {
         click(checkBox);
         return this;
     }
+
     @FindBy(xpath = "//form/div[5]//input[@type='checkbox']")
     WebElement checkBox2;
 
-    public RegistrationPage clickOnCheckBo2() {
+    public RegistrationPage clickOnCheckBox2() {
         click(checkBox2);
         return this;
     }
@@ -116,19 +127,51 @@ public class RegistrationPage extends BasePage {
     @FindBy(xpath = "//button[contains(text(),'Return to home page')]")
     WebElement confirmButton;
 
-    public RegistrationPage clickOnConfirmButton() {
+    public HomePage clickOnConfirmButton() {
         click(confirmButton);
+        return new HomePage(driver);
+    }
+
+
+    public RegistrationPage enterEmailFromPage() {
+        Actions actions = new Actions(driver);
+
+        actions.click(inputEmail)
+                .keyDown(Keys.CONTROL)
+                .sendKeys("v")
+                .keyUp(Keys.CONTROL)
+                .perform();
 
         return this;
     }
-}
-//    @FindBy()
-//    WebElement radioButtonNo;
-//    public RegistrationPage clickOnNoRadioButton() {
-//        click(radioButtonNo);
-//        return this;
-//    }
 
-//    public void verifyChoiceNo() {
-//    }
-//}
+    public RegistrationPage enterPosEmail(String tempEmail, String email) {
+        String domain = tempEmail.split("@")[1];
+        String newEmail = email + "@" + domain;
+        type(inputEmail, newEmail);
+        return this;
+    }
+
+    public RegistrationPage verifyUncheckBox(String message) {
+        String validationMessage = checkBox.getAttribute("validationMessage");
+        assertEquals(validationMessage, message);
+        return this;
+    }
+
+    @FindBy(xpath = "//div[@class='_error_hzh3r_140']")
+    WebElement errorMessage;
+
+    public void verifyUnsuccessfulRegistration(String message) {
+        Assert.assertTrue(shouldHaveText(errorMessage,message,3));
+    }
+
+    public void verifyUnsuccessfulRegistrationWithWrongPassword() {
+        String validationMessage = inputPassword.getAttribute("validationMessage");
+        Assert.assertTrue(!validationMessage.isEmpty());
+    }
+
+    public void verifyUnsuccessfulRegistrationWithWrongConfirmPassword() {
+        String validationMessage = inputConfirmPassword.getAttribute("validationMessage");
+        Assert.assertTrue(!validationMessage.isEmpty());
+    }
+}

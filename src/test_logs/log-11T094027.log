@@ -1,0 +1,45 @@
+09:40:28.419 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\IMT - Teilnehmer\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+09:40:28.500 [main] INFO  com.tabakshop.tests.TestBase - Start test: negativeRegistrationWithoutAgeConfirmation
+09:40:30.922 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+09:40:31.296 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+09:40:31.337 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[@class='_navLink_1jip9_35'][2]
+09:40:31.413 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[@class='_navLink_1jip9_35'][2]
+09:40:32.026 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+09:40:32.050 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+09:40:32.090 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+09:40:32.114 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+09:40:32.141 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+09:40:32.155 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+09:40:32.214 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+09:40:32.237 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+09:40:32.284 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+09:40:32.303 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+09:40:32.325 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+09:40:32.340 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+09:40:32.398 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+09:40:32.418 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+09:40:32.467 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+09:40:32.493 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+09:40:32.514 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+09:40:32.530 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+09:40:32.573 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[5]//input[@type='checkbox']
+09:40:32.594 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[5]//input[@type='checkbox']
+09:40:34.644 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(), 'Register')]
+09:40:34.665 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(), 'Register')]
+09:40:34.701 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: your-checkbox-id
+09:40:44.753 [main] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+09:40:44.753 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+09:40:44.753 [main] INFO  com.tabakshop.utils.MyListener - Method--> findElement
+09:40:44.753 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+09:40:44.754 [main] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#your\-checkbox\-id"}
+  (Session info: chrome=127.0.6533.99)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5611f1125d27e92738f6e7b4ce981f23, findElement {using=id, value=your-checkbox-id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.99, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59184}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59184/devtoo..., se:cdpVersion: 127.0.6533.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5611f1125d27e92738f6e7b4ce981f23
+09:40:44.755 [main] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1615.png

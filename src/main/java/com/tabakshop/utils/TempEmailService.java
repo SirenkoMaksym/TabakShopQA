@@ -15,6 +15,7 @@ import org.jsoup.nodes.Element;
 import java.io.IOException;
 
 public class TempEmailService {
+
     private static final String API_URL = "https://www.1secmail.com/api/v1/";
     private static final int MAX_RETRIES = 10;
     private static final int WAIT_TIME_MS = 5000;
@@ -82,7 +83,8 @@ public class TempEmailService {
             String responseBody = EntityUtils.toString(response.getEntity());
 
 
-            return responseBody.contains("Аккаунт успешно активирован");
+
+            return responseBody.contains("Аккаунт, успешно, активирован");
         } catch (IOException | InterruptedException e) {
             throw new RuntimeException("Failed to activate account", e);
         }

@@ -5,202 +5,197 @@
 
 package com.tabakshop.tests;
 
+import com.tabakshop.pages.EmailPage;
 import com.tabakshop.pages.HomePage;
 import com.tabakshop.pages.RegistrationPage;
 import com.tabakshop.utils.DataProviders;
 import com.tabakshop.utils.TempEmailService;
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import static com.tabakshop.data.Data.*;
+
 public class RegistrationTests extends TestBase {
+    private RegistrationPage registrationPage;
+    private EmailPage emailPage;
+
     @BeforeMethod
     public void precondition() {
+        registrationPage = new RegistrationPage(driver);
+        emailPage = new EmailPage(driver);
         new HomePage(driver).clickOnRegistrationButton();
     }
 
     @Test
-    public void checkingFunctionalityRegistrationButton(){
-        new RegistrationPage(driver)
-                .verifySuccessfulRegistrationPage("Registration"); //TODO Дописать ассерт
+    public void checkingFunctionalityRegistrationButton() {
+        registrationPage
+                .verifySuccessfulRegistrationPage(REGISTRATION_MESSAGE);
+    }
+
+
+    @Test
+    public void positiveVerifyAccountActivationVerOne() {
+        String tempEmail = TempEmailService.generateTempEmail();
+        registrationPage
+                .enterEmail(tempEmail)
+                .enterPassword(PASSWORD)
+                .enterConfirmPassword(PASSWORD)
+                .clickOnCheckBox()
+                .clickOnCheckBox2()
+                .clickOnRegistrationButton()
+                .clickOnConfirmButton()
+                .confirmRegistration(tempEmail);
     }
 
     @Test
-    public void positiveRegistrationWithoutData(){
-        new RegistrationPage(driver)
-                .enterEmailOne()
-                .enterPasswordOne()
-                .enterConfirmPasswordOne()
+    public void positiveVerifyAccountActivationVerTwo() {
+        driver.navigate().to(EMAIL_URL);
+        emailPage
+                .clickOnCopyEmail();
+        driver.navigate().back();
+        registrationPage
+                .enterEmailFromPage()
+                .enterPassword(PASSWORD)
+                .enterConfirmPassword(PASSWORD)
+                .clickOnCheckBox()
+                .clickOnCheckBox2()
                 .clickOnRegistrationButton()
-                .verifySuccessfulRegistration("Logout");
+                .clickOnConfirmButton();
+
+        driver.navigate().to(EMAIL_URL);
+        emailPage
+                .enterEmail()
+                .enterDomain()
+                .checkMail()
+                .clickOnRefreshButton()
+                .clickOnConfirmLink()
+                .clickOnActivateLink()
+                .verifyActivateMessage(ACTIVATE_MESSAGE);
+    }
+    @Test(dataProvider = "positiveEmail", dataProviderClass = DataProviders.class)
+    public void positiveRegistration(String email) {
+        String tempEmail = TempEmailService.generateTempEmail();
+        registrationPage
+                .enterPosEmail(tempEmail, email)
+                .enterPassword(PASSWORD)
+                .enterConfirmPassword(PASSWORD)
+                .clickOnCheckBox()
+                .clickOnCheckBox2()
+                .clickOnRegistrationButton()
+                .clickOnConfirmButton();
+        driver.navigate().to(EMAIL_URL);
+        emailPage
+                .enterEmail(email)
+                .enterDomain(tempEmail)
+                .checkMail()
+                .clickOnRefreshButton()
+                .clickOnConfirmLink()
+                .clickOnActivateLink()
+                .verifyActivateMessage(ACTIVATE_MESSAGE);
+
     }
 
     @Test
-    public void massRegistrationWithEmailConfirmation() {
-        for (int i = 0; i < 2; i++) {
-            String tempEmail = TempEmailService.generateTempEmail();
-            new RegistrationPage(driver)
-                    .enterEmail(tempEmail)
-                    .enterPasswordOne()
-                    .enterConfirmPasswordOne()
-                    .clickOnCheckBox()
-                    .clickOnCheckBo2()
-                    .clickOnRegistrationButton()
-                    .clickOnConfirmButton()
-                    .verifySuccessfulRegistration("Logout");
-
-            confirmRegistration(tempEmail);
-        }
-    }
-
-    private void confirmRegistration(String email) {
-        String verificationLink = TempEmailService.getVerificationLink(email);
-        System.out.println("Verification Link: " + verificationLink);
-
-        boolean isActivated = TempEmailService.isAccountActivated(verificationLink);
-        Assert.assertTrue(isActivated, "Аккаунт, успешно, активирован");
-    }
-
-
-    // loombook создать объекты. чтобы не было сстрингов. так это по-детски.
-    @Test(dataProvider = "registrationPositiveData", dataProviderClass = DataProviders.class)
-    public void positiveRegistration(String email, String password, String confirmPassword) {
-        new RegistrationPage(driver)
-                //     .enterName(name)
-                .enterEmail(email)
-              //  .clickOnYesRadioButton()
-                .enterPassword(password)
-                .enterConfirmPassword(confirmPassword)
+    public void negativeRegistrationWithoutAgeConfirmation() {
+        String tempEmail = TempEmailService.generateTempEmail();
+        registrationPage
+                .enterEmail(tempEmail)
+                .enterPassword(PASSWORD)
+                .enterConfirmPassword(PASSWORD)
+                .clickOnCheckBox2()
                 .clickOnRegistrationButton()
-                .verifySuccessfulRegistration("Logout")       //todo добавить все локаторы, доделать ассерт,
-                                                      // добавить удаление после каждого
-                                                      // т.к. не будет проходить из-за одинаковых е-мэйлов
-                                                      // или изменить е-мэйлы на разные в датаПровайдере
-                //
-        ;
-    }
-
-    @Test(dataProvider = "registrationPositiveSmall", dataProviderClass = DataProviders.class)
-    public void negativeRegistrationWithoutAgeConfirmation(String name,
-                                                           String email,
-                                                           String password,
-                                                           String confirmPassword) {
-        new RegistrationPage(driver)
-                .enterName(name)
-                .enterEmail(email)
-                .enterPassword(password)
-                .enterConfirmPassword(confirmPassword)
-                .clickOnRegistrationButton()
-                .verifyUnsuccessfulRegistration()       //todo добавить все локаторы, доделать ассерт
+                .verifyUncheckBox(CHECKBOX_MESSAGE)
         ;
     }
 
     @Test(dataProvider = "registrationNegativeEmail", dataProviderClass = DataProviders.class)
-    public void negativeRegistrationWithWrongEmail(String name,
-                                                   String email,
-                                                   String password,
-                                                   String confirmPassword) {
-        new RegistrationPage(driver)
-                .enterName(name)
+    public void negativeRegistrationWithWrongEmail(String email) {
+        registrationPage
                 .enterEmail(email)
-                // .clickOnYesRadioButton()
-                .enterPassword(password)
-                .enterConfirmPassword(confirmPassword)
+                .enterPassword(PASSWORD)
+                .enterConfirmPassword(PASSWORD)
+                .clickOnCheckBox()
+                .clickOnCheckBox2()
                 .clickOnRegistrationButton()
-                .verifyUnsuccessfulRegistration()       //todo добавить все локаторы, доделать ассерт
+                .verifyUnsuccessfulRegistrationWithWrongEmail();
+        ;
+    }
+
+    @Test
+    public void negativeRegistrationWithWrongConfirmPassword() {
+        String tempEmail = TempEmailService.generateTempEmail();
+        registrationPage
+                .enterEmail(tempEmail)
+                .enterPassword(PASSWORD)
+                .enterConfirmPassword(REGISTRATION_MESSAGE)
+                .clickOnCheckBox()
+                .clickOnCheckBox2()
+                .clickOnRegistrationButton()
+                .verifyUnsuccessfulRegistration(DO_NOT_MATCH_MESSAGE)
+        ;
+    }
+
+    @Test
+    public void negativeRegistrationWithAlreadyRegisteredUsers() {
+        registrationPage
+                .enterEmail(EMAIL_EXAMPLE)
+                .enterPassword(PASSWOR_EXAMPLE)
+                .enterConfirmPassword(PASSWOR_EXAMPLE)
+                .clickOnCheckBox()
+                .clickOnCheckBox2()
+                .clickOnRegistrationButton()
+                .verifyUnsuccessfulRegistration(EXISTS_USER_MESSAGE)
         ;
     }
 
     @Test(dataProvider = "registrationNegativePassword", dataProviderClass = DataProviders.class)
-    public void negativeRegistrationWithWrongPassword(String name, String email,
-                                                      String password,
-                                                      String confirmPassword) {
-        new RegistrationPage(driver)
-                .enterName(name)
-                .enterEmail(email)
-                //  .clickOnYesRadioButton()
+    public void negativeRegistrationWithWrongPassword(String password) {
+        String tempEmail = TempEmailService.generateTempEmail();
+        registrationPage
+                .enterEmail(tempEmail)
                 .enterPassword(password)
-                .enterConfirmPassword(confirmPassword)
+                .enterConfirmPassword(PASSWORD)
+                .clickOnCheckBox()
+                .clickOnCheckBox2()
                 .clickOnRegistrationButton()
-                .verifyUnsuccessfulRegistration()       //todo добавить все локаторы, доделать ассерт
+                .verifyUnsuccessfulRegistration(NOT_VALID_PASSWORD_MESSAGE)
+                ;
+    }
+    @Test
+    public void negativeRegistrationWithoutEmail() {
+        registrationPage
+                .enterEmail(EMPTY)
+                .enterPassword(PASSWORD)
+                .enterConfirmPassword(PASSWORD)
+                .clickOnCheckBox()
+                .clickOnCheckBox2()
+                .clickOnRegistrationButton()
+                .verifyUnsuccessfulRegistrationWithWrongEmail()
         ;
     }
-
-    @Test(dataProvider = "registrationPositiveSmall", dataProviderClass = DataProviders.class)
-    public void negativeRegistrationWithAlreadyRegisteredUsers(String name, String email,
-                                                               String password,
-                                                               String confirmPassword) {
-        new RegistrationPage(driver)
-                .enterName(name)
-                .enterEmail(email)
-               // .clickOnYesRadioButton()
-                .enterPassword(password)
-                .enterConfirmPassword(confirmPassword)
-                .clickOnRegistrationButton();
-        new RegistrationPage(driver)
-                .enterName(name)
-                .enterEmail(email)
-              //  .clickOnYesRadioButton()
-                .enterPassword(password)
-                .enterConfirmPassword(confirmPassword)
+    @Test
+    public void negativeRegistrationWithoutPassword() {
+        registrationPage
+                .enterEmail(EMAIL_EXAMPLE)
+                .enterPassword(EMPTY)
+                .enterConfirmPassword(PASSWORD)
+                .clickOnCheckBox()
+                .clickOnCheckBox2()
                 .clickOnRegistrationButton()
-                .verifyUnsuccessfulRegistration()
-                                                       //todo добавить все локаторы, доделать ассерт
+               .verifyUnsuccessfulRegistrationWithWrongPassword()
         ;
     }
-    @Test(dataProvider = "registrationPositiveSmall", dataProviderClass = DataProviders.class)
-    public void negativeRegistrationWithWrongConfirmPassword(String name, String email,
-                                                      String password,
-                                                      String confirmPassword) {
-        new RegistrationPage(driver)
-                .enterName(name)
-                .enterEmail(email)
-            //    .clickOnYesRadioButton()
-                .enterPassword(password)
-                .enterConfirmPassword("wrongConfirmPassword!")
+    @Test
+    public void negativeRegistrationWithoutConfirmPassword() {
+        registrationPage
+                .enterEmail(EMAIL_EXAMPLE)
+                .enterPassword(PASSWORD)
+                .enterConfirmPassword(EMPTY)
+                .clickOnCheckBox()
+                .clickOnCheckBox2()
                 .clickOnRegistrationButton()
-                .verifyUnsuccessfulRegistration()
-                                                           //todo добавить все локаторы, доделать ассерт
+                .verifyUnsuccessfulRegistrationWithWrongConfirmPassword()
         ;
     }
-    @Test(dataProvider = "registrationNegativeName", dataProviderClass = DataProviders.class)
-    public void negativeRegistrationWithWrongName(String name, String email,
-                                                      String password,
-                                                      String confirmPassword) {
-        new RegistrationPage(driver)
-                .enterName(name)
-                .enterEmail(email)
-            //    .clickOnYesRadioButton()
-                .enterPassword(password)
-                .enterConfirmPassword(confirmPassword)
-                .clickOnRegistrationButton()
-                .verifyUnsuccessfulRegistration()       //todo добавить все локаторы, доделать ассерт
-        ;
-    }
-//    @Test(dataProvider = "registrationPositiveDataAgain", dataProviderClass = DataProviders.class)
-//    public void positiveRegistrationAgain(String name, String email, String password, String confirmPassword) {
-//        new RegistrationPage(driver)
-//                .enterName(name)
-//                .enterEmail(email)
-//                .clickOnYesRadioButton()
-//                .enterPassword(password)
-//                .enterConfirmPassword(confirmPassword)
-//                .clickOnRegistrationButton()
-//                .verifySuccessfulRegistration()       //todo добавить все локаторы, доделать ассерт,
-//                                                      // добавить удаление после каждого
-//                                                      // т.к. не будет проходить из-за одинаковых е-мэйлов
-//                                                      // или изменить е-мэйлы на разные в датаПровайдере
-//        ;
-//    }
-
-//    @Test
-//    public void checkingFunctionalityConfirmAgeButton() {
-//        new RegistrationPage(driver)
-//               // .clickOnYesRadioButton()
-//                .clickOnNoRadioButton()
-//                .verifyChoiceNo()       //todo добавить все локаторы, доделать ассерт,
-//
-//        ;
-//    }
 
 }
