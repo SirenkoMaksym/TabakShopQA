@@ -9,7 +9,6 @@ import com.tabakshop.pages.EmailPage;
 import com.tabakshop.pages.HomePage;
 import com.tabakshop.pages.RegistrationPage;
 import com.tabakshop.utils.DataProviders;
-import com.tabakshop.utils.TempEmailService;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -35,7 +34,6 @@ public class RegistrationTests extends TestBase {
 
     @Test
     public void positiveVerifyAccountActivationVerOne() {
-        String tempEmail = TempEmailService.generateTempEmail();
         registrationPage
                 .enterEmail(tempEmail)
                 .enterPassword(PASSWORD)
@@ -72,9 +70,8 @@ public class RegistrationTests extends TestBase {
                 .clickOnActivateLink()
                 .verifyActivateMessage(ACTIVATE_MESSAGE);
     }
-    @Test(dataProvider = "positiveEmail", dataProviderClass = DataProviders.class)
+    @Test(dataProvider = "example", dataProviderClass = DataProviders.class)
     public void positiveRegistration(String email) {
-        String tempEmail = TempEmailService.generateTempEmail();
         registrationPage
                 .enterPosEmail(tempEmail, email)
                 .enterPassword(PASSWORD)
@@ -97,7 +94,6 @@ public class RegistrationTests extends TestBase {
 
     @Test
     public void negativeRegistrationWithoutAgeConfirmation() {
-        String tempEmail = TempEmailService.generateTempEmail();
         registrationPage
                 .enterEmail(tempEmail)
                 .enterPassword(PASSWORD)
@@ -123,7 +119,6 @@ public class RegistrationTests extends TestBase {
 
     @Test
     public void negativeRegistrationWithWrongConfirmPassword() {
-        String tempEmail = TempEmailService.generateTempEmail();
         registrationPage
                 .enterEmail(tempEmail)
                 .enterPassword(PASSWORD)
@@ -150,7 +145,6 @@ public class RegistrationTests extends TestBase {
 
     @Test(dataProvider = "registrationNegativePassword", dataProviderClass = DataProviders.class)
     public void negativeRegistrationWithWrongPassword(String password) {
-        String tempEmail = TempEmailService.generateTempEmail();
         registrationPage
                 .enterEmail(tempEmail)
                 .enterPassword(password)
