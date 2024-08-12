@@ -74,4 +74,19 @@ public class DataProviders {
         return list.iterator();
     }
 
+    @DataProvider(name = "example")
+    public Iterator<Object[]> registrationExampleUser1FromCsv() throws IOException {
+        List<Object[]> list = new ArrayList<>();
+        BufferedReader reader = new BufferedReader(new FileReader
+                (new File("src/test/resources/exampleEmail.csv")));
+        String line = reader.readLine();
+
+        while (line != null) {
+            list.add(new Object[]{line.trim()});
+            line = reader.readLine();
+        }
+        reader.close();
+        return list.iterator();
+    }
+
 }
