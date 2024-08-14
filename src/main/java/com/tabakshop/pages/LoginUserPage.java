@@ -14,20 +14,20 @@ public class LoginUserPage extends BasePage{
     WebElement fieldEmail;
 
 
-    public LoginUserPage enterEmail() {
-        type(fieldEmail,"test1@mail.com");
+    public LoginUserPage enterEmail(String emailExample) {
+        type(fieldEmail,emailExample);
         return this;
     }
 
     @FindBy(id = "password")
     WebElement fieldPassword;
 
-    public LoginUserPage enterExistPassword() {
-        type(fieldPassword,"Password2222!");
+    public LoginUserPage enterExistPassword(String passworExample) {
+        type(fieldPassword,passworExample);
         return this;
     }
 
-    @FindBy(css = "button._button_1ptto_54[type='submit']")
+    @FindBy(xpath = "//button[contains(text(),'Sign in')]")
     WebElement signInButton;
 
     public LoginUserPage clickOnSignInButton() {
@@ -35,10 +35,47 @@ public class LoginUserPage extends BasePage{
         return this;
     }
 
-    @FindBy(linkText = "Logout")
+    @FindBy(css = "button._navLink_1jip9_35")
     WebElement logoutLink;
 
     public void verifySuccesfullLogin(String text) {
         Assert.assertTrue(logoutLink.getText().equals(text));
     }
+    @FindBy(tagName = "h2")
+    WebElement loginTitle;
+
+    public LoginUserPage verifySuccessfulLoginPage(String loginMessage) {
+        Assert.assertTrue(loginTitle.getText().equals(loginMessage));
+        return this;
+
+
+    }
+    @FindBy(xpath = "//div[contains(text(),'Incorrect email or password')]")
+    WebElement errorMessage;
+
+    public LoginUserPage verifyUnsuccessfulLogin() {
+        Assert.assertTrue(errorMessage.isDisplayed());
+
+
+        return this;
+    }
+    public LoginUserPage verifyUnsuccessfulLoginWithEmptyEmailField() {
+        String script = "return arguments[0].validationMessage;";
+        String validationMessage = (String) js.executeScript(script, fieldEmail);
+
+        Assert.assertTrue(validationMessage != null);
+
+        return this;
+    }
+
+
+    public LoginUserPage verifyUnsuccessfulLoginWithEmptyPasswordField() {
+        String script = "return arguments[0].validationMessage;";
+        String validationMessage = (String) js.executeScript(script, fieldPassword);
+
+        Assert.assertTrue(validationMessage != null);
+
+        return this;
+    }
 }
+
