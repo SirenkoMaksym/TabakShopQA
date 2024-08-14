@@ -13,6 +13,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import static com.tabakshop.data.Data.*;
+import static com.tabakshop.utils.CSVUpdater.updateCSVFile;
 
 public class RegistrationTests extends TestBase {
     private RegistrationPage registrationPage;
@@ -29,6 +30,27 @@ public class RegistrationTests extends TestBase {
     public void checkingFunctionalityRegistrationButton() {
         registrationPage
                 .verifySuccessfulRegistrationPage(REGISTRATION_MESSAGE);
+    }
+    @Test(dataProvider = "positiveEmail", dataProviderClass = DataProviders.class)
+    public void positiveRegistration(String email) {
+        registrationPage
+                .enterPosEmail(tempEmail, email)
+                .enterPassword(PASSWORD)
+                .enterConfirmPassword(PASSWORD)
+                .clickOnCheckBox()
+                .clickOnCheckBox2()
+                .clickOnRegistrationButton()
+                .clickOnConfirmButton();
+        driver.navigate().to(EMAIL_URL);
+        emailPage
+                .enterEmail(email)
+                .enterDomain(tempEmail)
+                .checkMail()
+                .clickOnRefreshButton()
+                .clickOnConfirmLink()
+                .clickOnActivateLink()
+                .verifyActivateMessage(ACTIVATE_MESSAGE);
+
     }
 
 
@@ -70,27 +92,7 @@ public class RegistrationTests extends TestBase {
                 .clickOnActivateLink()
                 .verifyActivateMessage(ACTIVATE_MESSAGE);
     }
-    @Test(dataProvider = "example", dataProviderClass = DataProviders.class)
-    public void positiveRegistration(String email) {
-        registrationPage
-                .enterPosEmail(tempEmail, email)
-                .enterPassword(PASSWORD)
-                .enterConfirmPassword(PASSWORD)
-                .clickOnCheckBox()
-                .clickOnCheckBox2()
-                .clickOnRegistrationButton()
-                .clickOnConfirmButton();
-        driver.navigate().to(EMAIL_URL);
-        emailPage
-                .enterEmail(email)
-                .enterDomain(tempEmail)
-                .checkMail()
-                .clickOnRefreshButton()
-                .clickOnConfirmLink()
-                .clickOnActivateLink()
-                .verifyActivateMessage(ACTIVATE_MESSAGE);
 
-    }
 
     @Test
     public void negativeRegistrationWithoutAgeConfirmation() {
@@ -153,8 +155,9 @@ public class RegistrationTests extends TestBase {
                 .clickOnCheckBox2()
                 .clickOnRegistrationButton()
                 .verifyUnsuccessfulRegistration(NOT_VALID_PASSWORD_MESSAGE)
-                ;
+        ;
     }
+
     @Test
     public void negativeRegistrationWithoutEmail() {
         registrationPage
@@ -167,6 +170,7 @@ public class RegistrationTests extends TestBase {
                 .verifyUnsuccessfulRegistrationWithWrongEmail()
         ;
     }
+
     @Test
     public void negativeRegistrationWithoutPassword() {
         registrationPage
@@ -176,9 +180,10 @@ public class RegistrationTests extends TestBase {
                 .clickOnCheckBox()
                 .clickOnCheckBox2()
                 .clickOnRegistrationButton()
-               .verifyUnsuccessfulRegistrationWithWrongPassword()
+                .verifyUnsuccessfulRegistrationWithWrongPassword()
         ;
     }
+
     @Test
     public void negativeRegistrationWithoutConfirmPassword() {
         registrationPage

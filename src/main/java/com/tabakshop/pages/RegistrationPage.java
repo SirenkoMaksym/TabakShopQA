@@ -128,6 +128,7 @@ public class RegistrationPage extends BasePage {
     WebElement confirmButton;
 
     public HomePage clickOnConfirmButton() {
+        pause(1000);
         click(confirmButton);
         return new HomePage(driver);
     }
