@@ -33,6 +33,7 @@ public class EmailPage extends BasePage {
     WebElement refreshButton;
 
     public EmailPage clickOnRefreshButton() {
+        pause(1000);
         click(refreshButton);
         return this;
     }

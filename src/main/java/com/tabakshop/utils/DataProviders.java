@@ -17,7 +17,7 @@ import java.util.List;
 
 public class DataProviders {
 
-//    @DataProvider(name = "registrationPositiveData")
+    //    @DataProvider(name = "registrationPositiveData")
 //    public Iterator<Object[]> registrationNewUserFromCsv() throws IOException {
 //        List<Object[]> list = new ArrayList<>();
 //        BufferedReader reader = new BufferedReader(new FileReader
@@ -30,9 +30,14 @@ public class DataProviders {
 //        }
 //        return list.iterator();
 //    }
+    private static boolean isCSVUpdated = false;
 
     @DataProvider(name = "positiveEmail")
     public Iterator<Object[]> registrationNewUser1FromCsv() throws IOException {
+        if (!isCSVUpdated) {
+            CSVUpdater.updateCSVFile();
+            isCSVUpdated = true; // Устанавливаем флаг, чтобы больше не обновлять файл
+        }
         List<Object[]> list = new ArrayList<>();
         BufferedReader reader = new BufferedReader(new FileReader
                 (new File("src/test/resources/positiveEmail.csv")));
@@ -45,6 +50,7 @@ public class DataProviders {
         reader.close();
         return list.iterator();
     }
+
     @DataProvider(name = "registrationNegativeEmail")
     public Iterator<Object[]> registrationNewUserWithWrongEmailFromCsv() throws IOException {
         List<Object[]> list = new ArrayList<>();
@@ -59,6 +65,7 @@ public class DataProviders {
         reader.close();
         return list.iterator();
     }
+
     @DataProvider(name = "registrationNegativePassword")
     public Iterator<Object[]> registrationNewUserWithWrongPasswordFromCsv() throws IOException {
         List<Object[]> list = new ArrayList<>();
