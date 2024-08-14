@@ -26,6 +26,5 @@ public class Data {
     public static final String WRONG_EMAIL_EXAMPLE = "test3@gmail.com";
 
     public static final String tempEmail = TempEmailService.generateTempEmail();
- main
 
 }
