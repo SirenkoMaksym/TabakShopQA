@@ -35,7 +35,7 @@ public class LoginUserPage extends BasePage{
         return this;
     }
 
-    @FindBy(css = "button._navLink_1jip9_35")
+    @FindBy(css = "button._navLink_1ngku_35")
     WebElement logoutLink;
 
     public void verifySuccesfullLogin(String text) {
@@ -50,7 +50,7 @@ public class LoginUserPage extends BasePage{
 
 
     }
-    @FindBy(xpath = "//div[contains(text(),'Incorrect email or password')]")
+    @FindBy(xpath = "//div[contains(text(),'Email or password is incorrect')]")
     WebElement errorMessage;
 
     public LoginUserPage verifyUnsuccessfulLogin() {
