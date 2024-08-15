@@ -1,0 +1,64 @@
+11:44:56.164 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\IMT - Teilnehmer\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+11:44:56.242 [main] INFO  com.tabakshop.tests.TestBase - Start test: negativeRegistrationWithWrongConfirmPassword
+11:44:58.397 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+11:44:58.840 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+11:44:58.873 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[@class='_navLink_1ngku_35'][2]
+11:44:58.939 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[@class='_navLink_1ngku_35'][2]
+11:44:59.568 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+11:44:59.593 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+11:44:59.639 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+11:44:59.666 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+11:44:59.689 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+11:44:59.704 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+11:44:59.763 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+11:44:59.785 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+11:44:59.814 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+11:44:59.831 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+11:44:59.850 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+11:44:59.864 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+11:44:59.905 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+11:44:59.927 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+11:44:59.967 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+11:45:00.003 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+11:45:00.041 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+11:45:00.056 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+11:45:00.098 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[4]//input[@type='checkbox']
+11:45:00.116 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[4]//input[@type='checkbox']
+11:45:00.154 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[5]//input[@type='checkbox']
+11:45:00.172 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[5]//input[@type='checkbox']
+11:45:02.249 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(), 'Register')]
+11:45:02.272 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(), 'Register')]
+11:45:02.319 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //div[contains(text(),'User already exists. Please try a different email')]
+11:45:12.364 [main] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+11:45:12.365 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+11:45:12.365 [main] INFO  com.tabakshop.utils.MyListener - Method--> findElement
+11:45:12.365 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+11:45:12.366 [main] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'User already exists. Please try a different email')]"}
+  (Session info: chrome=127.0.6533.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4da91aeb3e03cacccb7ac97e3ee44b32, findElement {value=//div[contains(text(),'User already exists. Please try a different email')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.101, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61831}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61831/devtoo..., se:cdpVersion: 127.0.6533.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4da91aeb3e03cacccb7ac97e3ee44b32
+11:45:12.366 [main] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1067.png
+11:45:12.768 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //div[contains(text(),'User already exists. Please try a different email')]
+11:45:22.836 [main] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+11:45:22.836 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+11:45:22.836 [main] INFO  com.tabakshop.utils.MyListener - Method--> findElement
+11:45:22.836 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+11:45:22.836 [main] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'User already exists. Please try a different email')]"}
+  (Session info: chrome=127.0.6533.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4da91aeb3e03cacccb7ac97e3ee44b32, findElement {value=//div[contains(text(),'User already exists. Please try a different email')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.101, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61831}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61831/devtoo..., se:cdpVersion: 127.0.6533.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4da91aeb3e03cacccb7ac97e3ee44b32
+11:45:22.836 [main] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1026.png
+11:45:23.459 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithWrongConfirmPassword
+11:45:23.459 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
