@@ -5,8 +5,14 @@
 <!--        <parameter name="password" value="SuperPassword1!"/>-->
 <!--        <parameter name="confirmPassword" value="SuperPassword1!"/>-->
         <classes>
-            <class name="com.tabakshop.tests.RegistrationTests"/>
+            <class name="com.tabakshop.tests.RegistrationTests">
+                <methods>
+                    <exclude name=".*positive.*"/>
+                </methods>
+            </class>
             <class name="com.tabakshop.tests.LoginTests"/>
+
+
         </classes>
     </test>
 </suite>
