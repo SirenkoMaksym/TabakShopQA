@@ -77,5 +77,13 @@ public class LoginUserPage extends BasePage{
 
         return this;
     }
+    @FindBy(tagName = "h4")
+    WebElement greeting;
+
+    public LoginUserPage verifySuccesfullLoginAdmin(String text) {
+
+        Assert.assertTrue(greeting.getText().equals(text));
+        return this;
+    }
 }
 

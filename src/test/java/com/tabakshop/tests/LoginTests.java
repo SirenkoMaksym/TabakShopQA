@@ -24,12 +24,21 @@ public class LoginTests extends TestBase {
     }
 
     @Test
-    public void loginPositive() {
+    public void loginPositiveUser() {
         loginUserPage
                 .enterEmail(EMAIL_EXAMPLE)
                 .enterExistPassword(PASSWOR_EXAMPLE)
                 .clickOnSignInButton()
                 .verifySuccesfullLogin(LOGOUT_BUTTON);
+
+    }
+    @Test
+    public void loginPositiveAdmin() {
+        loginUserPage
+                .enterEmail(EMAIL_ADMIN)
+                .enterExistPassword(PASSWOR_ADMIN)
+                .clickOnSignInButton()
+                .verifySuccesfullLoginAdmin(ADMIN_GREETING);
 
     }
 
