@@ -6,6 +6,7 @@
 <!--        <parameter name="confirmPassword" value="SuperPassword1!"/>-->
         <classes>
             <class name="com.tabakshop.tests.RegistrationTests"/>
+            <class name="com.tabakshop.tests.LoginTests"/>
         </classes>
     </test>
 </suite>
