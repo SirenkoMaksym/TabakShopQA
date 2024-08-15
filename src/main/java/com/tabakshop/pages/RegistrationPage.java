@@ -159,7 +159,7 @@ public class RegistrationPage extends BasePage {
         return this;
     }
 
-    @FindBy(xpath = "//div[@class='_error_hzh3r_140']")
+    @FindBy(xpath = "//div[@class='_error_1o1ny_147']")
     WebElement errorMessage;
 
     public void verifyUnsuccessfulRegistration(String message) {

@@ -1,0 +1,166 @@
+23:49:58.131 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\IMT - Teilnehmer\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+23:49:58.209 [main] INFO  com.tabakshop.tests.TestBase - Start test: checkingFunctionalityRegistrationButton
+23:50:00.522 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+23:50:00.624 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+23:50:00.657 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+23:50:00.804 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+23:50:00.895 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.tagName: h2
+23:50:00.932 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.tagName: h2
+23:50:01.155 [main] INFO  com.tabakshop.tests.TestBase - Test result: PASSED checkingFunctionalityRegistrationButton
+23:50:01.155 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+23:50:01.157 [main] INFO  com.tabakshop.tests.TestBase - Start test: loginNegativeEmptyEmailField
+23:50:02.356 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+23:50:02.593 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+23:50:02.595 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+23:50:02.646 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+23:50:02.742 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+23:50:02.777 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+23:50:02.838 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+23:50:02.872 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+23:50:02.917 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+23:50:02.977 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+23:50:03.011 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+23:50:03.027 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+23:50:03.057 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+23:50:03.070 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+23:50:03.089 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+23:50:03.100 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+23:50:03.140 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(),'Sign in')]
+23:50:03.156 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(),'Sign in')]
+23:50:03.199 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+23:50:03.222 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+23:50:03.408 [main] INFO  com.tabakshop.tests.TestBase - Test result: PASSED loginNegativeEmptyEmailField
+23:50:03.408 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+23:50:03.409 [main] INFO  com.tabakshop.tests.TestBase - Start test: loginNegativeEmptyPasswordField
+23:50:04.563 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+23:50:04.805 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+23:50:04.806 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+23:50:04.844 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+23:50:04.935 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+23:50:04.957 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+23:50:05.005 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+23:50:05.024 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+23:50:05.052 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+23:50:05.068 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+23:50:05.159 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+23:50:05.176 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+23:50:05.210 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+23:50:05.223 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+23:50:05.243 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+23:50:05.253 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+23:50:05.270 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(),'Sign in')]
+23:50:05.295 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(),'Sign in')]
+23:50:05.324 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+23:50:05.340 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+23:50:05.518 [main] INFO  com.tabakshop.tests.TestBase - Test result: PASSED loginNegativeEmptyPasswordField
+23:50:05.518 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+23:50:05.520 [main] INFO  com.tabakshop.tests.TestBase - Start test: loginNegativeWithWrongEmail
+23:50:06.838 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+23:50:07.069 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+23:50:07.071 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+23:50:07.095 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+23:50:07.184 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+23:50:07.209 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+23:50:07.249 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+23:50:07.264 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+23:50:07.289 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+23:50:07.301 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+23:50:07.391 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+23:50:07.411 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+23:50:07.437 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+23:50:07.453 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+23:50:07.476 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+23:50:07.487 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+23:50:07.535 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(),'Sign in')]
+23:50:07.552 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(),'Sign in')]
+23:50:07.585 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //div[contains(text(),'Incorrect email or password')]
+23:50:17.647 [main] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+23:50:17.647 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+23:50:17.647 [main] INFO  com.tabakshop.utils.MyListener - Method--> findElement
+23:50:17.647 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+23:50:17.649 [main] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Incorrect email or password')]"}
+  (Session info: chrome=127.0.6533.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [62bc5d6c5791c2a46f49d248eec90e16, findElement {value=//div[contains(text(),'Incorrect email or password')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.101, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50788}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50788/devtoo..., se:cdpVersion: 127.0.6533.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62bc5d6c5791c2a46f49d248eec90e16
+23:50:17.649 [main] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1171.png
+23:50:19.833 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED loginNegativeWithWrongEmail
+23:50:19.833 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+23:50:19.834 [main] INFO  com.tabakshop.tests.TestBase - Start test: loginNegativeWithWrongPassword
+23:50:20.927 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+23:50:21.157 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+23:50:21.161 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+23:50:21.190 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+23:50:21.291 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+23:50:21.319 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+23:50:21.386 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+23:50:21.401 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+23:50:21.435 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+23:50:21.451 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+23:50:21.539 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+23:50:21.552 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+23:50:21.584 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+23:50:21.597 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+23:50:21.622 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+23:50:21.632 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+23:50:21.693 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(),'Sign in')]
+23:50:21.717 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(),'Sign in')]
+23:50:21.756 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //div[contains(text(),'Incorrect email or password')]
+23:50:31.780 [main] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+23:50:31.780 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+23:50:31.780 [main] INFO  com.tabakshop.utils.MyListener - Method--> findElement
+23:50:31.780 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+23:50:31.780 [main] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Incorrect email or password')]"}
+  (Session info: chrome=127.0.6533.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d0fa9626775152459519c372a85f2de, findElement {value=//div[contains(text(),'Incorrect email or password')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.101, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50810}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50810/devtoo..., se:cdpVersion: 127.0.6533.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d0fa9626775152459519c372a85f2de
+23:50:31.780 [main] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1490.png
+23:50:32.505 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED loginNegativeWithWrongPassword
+23:50:32.506 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+23:50:32.507 [main] INFO  com.tabakshop.tests.TestBase - Start test: loginPositive
+23:50:33.589 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+23:50:41.953 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+23:50:41.955 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+23:50:41.978 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+23:50:42.067 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+23:50:42.087 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+23:50:42.126 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+23:50:42.138 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+23:50:42.168 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+23:50:42.182 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+23:50:42.260 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+23:50:42.277 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+23:50:42.311 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+23:50:42.327 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+23:50:42.346 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+23:50:42.355 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+23:50:42.397 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(),'Sign in')]
+23:50:42.411 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(),'Sign in')]
+23:50:42.441 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: button._navLink_1jip9_35
+23:50:52.513 [main] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+23:50:52.513 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+23:50:52.513 [main] INFO  com.tabakshop.utils.MyListener - Method--> findElement
+23:50:52.513 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+23:50:52.513 [main] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"button._navLink_1jip9_35"}
+  (Session info: chrome=127.0.6533.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [adfd72c5f32f1a2c4cf41299b42d83c1, findElement {value=button._navLink_1jip9_35, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.101, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50833}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50833/devtoo..., se:cdpVersion: 127.0.6533.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: adfd72c5f32f1a2c4cf41299b42d83c1
+23:50:52.513 [main] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1266.png
+23:50:53.233 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED loginPositive
+23:50:53.233 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************

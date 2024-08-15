@@ -13,7 +13,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import static com.tabakshop.data.Data.*;
-import static com.tabakshop.utils.CSVUpdater.updateCSVFile;
 
 public class RegistrationTests extends TestBase {
     private RegistrationPage registrationPage;
