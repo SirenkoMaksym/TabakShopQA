@@ -1,0 +1,64 @@
+11:51:23.595 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\IMT - Teilnehmer\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+11:51:23.690 [main] INFO  com.tabakshop.tests.TestBase - Start test: negativeRegistrationWithAlreadyRegisteredUsers
+11:51:25.947 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+11:51:26.100 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+11:51:26.131 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[@class='_navLink_1ngku_35'][2]
+11:51:26.300 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[@class='_navLink_1ngku_35'][2]
+11:51:26.388 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+11:51:26.423 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+11:51:26.479 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+11:51:26.508 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+11:51:26.540 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+11:51:26.561 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+11:51:26.645 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+11:51:26.665 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+11:51:26.701 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+11:51:26.716 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+11:51:26.738 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+11:51:26.754 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+11:51:26.794 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+11:51:26.813 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+11:51:26.850 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+11:51:26.876 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+11:51:26.899 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+11:51:26.921 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+11:51:26.967 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[4]//input[@type='checkbox']
+11:51:26.991 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[4]//input[@type='checkbox']
+11:51:27.020 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[5]//input[@type='checkbox']
+11:51:27.039 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[5]//input[@type='checkbox']
+11:51:29.081 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(), 'Register')]
+11:51:29.100 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(), 'Register')]
+11:51:29.159 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //div[contains(text(),'Passwords do not match')]
+11:51:39.178 [main] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+11:51:39.178 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+11:51:39.178 [main] INFO  com.tabakshop.utils.MyListener - Method--> findElement
+11:51:39.178 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+11:51:39.179 [main] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Passwords do not match')]"}
+  (Session info: chrome=127.0.6533.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d418ecafb2d1c08f5f123fe6c76d4e5a, findElement {value=//div[contains(text(),'Passwords do not match')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.101, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62158}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62158/devtoo..., se:cdpVersion: 127.0.6533.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d418ecafb2d1c08f5f123fe6c76d4e5a
+11:51:39.179 [main] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1780.png
+11:51:39.568 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //div[contains(text(),'Passwords do not match')]
+11:51:49.622 [main] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+11:51:49.622 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+11:51:49.622 [main] INFO  com.tabakshop.utils.MyListener - Method--> findElement
+11:51:49.622 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+11:51:49.623 [main] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Passwords do not match')]"}
+  (Session info: chrome=127.0.6533.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d418ecafb2d1c08f5f123fe6c76d4e5a, findElement {value=//div[contains(text(),'Passwords do not match')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.101, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62158}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62158/devtoo..., se:cdpVersion: 127.0.6533.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d418ecafb2d1c08f5f123fe6c76d4e5a
+11:51:49.623 [main] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1836.png
+11:51:50.247 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithAlreadyRegisteredUsers
+11:51:50.248 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
