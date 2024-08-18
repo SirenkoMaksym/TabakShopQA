@@ -140,7 +140,7 @@ public class RegistrationTests extends TestBase {
                 .clickOnCheckBox()
                 .clickOnCheckBox2()
                 .clickOnRegistrationButton()
-                .verifyUnsuccessfulRegistration2(EXISTS_USER_MESSAGE)
+                .verifyUnsuccessfulRegistration(EXISTS_USER_MESSAGE)
         ;
     }
 
@@ -153,7 +153,7 @@ public class RegistrationTests extends TestBase {
                 .clickOnCheckBox()
                 .clickOnCheckBox2()
                 .clickOnRegistrationButton()
-                .verifyUnsuccessfulRegistration3(NOT_VALID_PASSWORD_MESSAGE)
+                .verifyUnsuccessfulRegistration(NOT_VALID_PASSWORD_MESSAGE)
         ;
     }
 

@@ -1,0 +1,40 @@
+00:56:41.297 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\IMT - Teilnehmer\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+00:56:41.371 [main] INFO  com.tabakshop.tests.TestBase - Start test: checkFunctionalSignOutByAdminButton
+00:56:43.627 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+00:56:43.962 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+00:56:44.000 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+00:56:44.064 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+00:56:44.131 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+00:56:44.162 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+00:56:44.204 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+00:56:44.237 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+00:56:44.262 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+00:56:44.283 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+00:56:44.390 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+00:56:44.413 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+00:56:44.450 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+00:56:44.475 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+00:56:44.497 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+00:56:44.510 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+00:56:44.563 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(),'Sign in')]
+00:56:44.580 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(),'Sign in')]
+00:56:44.621 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button
+00:56:44.646 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button
+00:56:44.760 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[@aria-current='page']
+00:56:44.779 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[@aria-current='page']
+00:56:45.308 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[@aria-current='page']
+00:56:45.328 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[@aria-current='page']
+00:56:45.842 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[@aria-current='page']
+00:56:45.857 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[@aria-current='page']
+00:56:46.381 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[@aria-current='page']
+00:56:46.396 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[@aria-current='page']
+00:56:46.917 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[@aria-current='page']
+00:56:46.935 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[@aria-current='page']
+00:56:47.454 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[@aria-current='page']
+00:56:47.471 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[@aria-current='page']
+00:56:47.992 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[@aria-current='page']
+00:56:48.006 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[@aria-current='page']
+00:56:48.017 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[@aria-current='page']
+00:56:48.031 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[@aria-current='page']

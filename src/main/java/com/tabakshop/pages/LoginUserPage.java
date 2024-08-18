@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
-public class LoginUserPage extends BasePage{
+public class LoginUserPage extends BasePage {
     public LoginUserPage(WebDriver driver) {
         super(driver);
     }
@@ -15,7 +15,7 @@ public class LoginUserPage extends BasePage{
 
 
     public LoginUserPage enterEmail(String emailExample) {
-        type(fieldEmail,emailExample);
+        type(fieldEmail, emailExample);
         return this;
     }
 
@@ -23,7 +23,7 @@ public class LoginUserPage extends BasePage{
     WebElement fieldPassword;
 
     public LoginUserPage enterExistPassword(String passworExample) {
-        type(fieldPassword,passworExample);
+        type(fieldPassword, passworExample);
         return this;
     }
 
@@ -41,6 +41,7 @@ public class LoginUserPage extends BasePage{
     public void verifySuccesfullLogin(String text) {
         Assert.assertTrue(logoutLink.getText().equals(text));
     }
+
     @FindBy(tagName = "h2")
     WebElement loginTitle;
 
@@ -50,6 +51,7 @@ public class LoginUserPage extends BasePage{
 
 
     }
+
     @FindBy(xpath = "//div[contains(text(),'Email or password is incorrect')]")
     WebElement errorMessage;
 
@@ -59,6 +61,7 @@ public class LoginUserPage extends BasePage{
 
         return this;
     }
+
     public LoginUserPage verifyUnsuccessfulLoginWithEmptyEmailField() {
         String script = "return arguments[0].validationMessage;";
         String validationMessage = (String) js.executeScript(script, fieldEmail);
@@ -77,6 +80,7 @@ public class LoginUserPage extends BasePage{
 
         return this;
     }
+
     @FindBy(tagName = "h4")
     WebElement greeting;
 
@@ -84,6 +88,13 @@ public class LoginUserPage extends BasePage{
 
         Assert.assertTrue(greeting.getText().equals(text));
         return this;
+    }
+
+    @FindBy(xpath = "//a[@aria-current='page']")
+    WebElement signInLink;
+
+    public void verifySignInLink(String textSignInLink) {
+        Assert.assertTrue(shouldHaveText(signInLink, textSignInLink, 3));
     }
 }
 

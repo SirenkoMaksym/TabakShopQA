@@ -39,7 +39,6 @@ public class LoginTests extends TestBase {
                 .enterExistPassword(PASSWOR_ADMIN)
                 .clickOnSignInButton()
                 .verifySuccesfullLoginAdmin(ADMIN_GREETING);
-
     }
 
     @Test

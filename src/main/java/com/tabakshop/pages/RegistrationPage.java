@@ -159,25 +159,13 @@ public class RegistrationPage extends BasePage {
         return this;
     }
 
-    @FindBy(xpath = "//div[contains(text(),'Passwords do not match')]")
+    @FindBy(xpath = "//main/div[1]/div")
     WebElement errorMessage;
 
     public void verifyUnsuccessfulRegistration(String message) {
         Assert.assertTrue(shouldHaveText(errorMessage,message,3));
     }
-    @FindBy(xpath = "//div[contains(text(),'Password must be in a valid format.')]")
-    WebElement errorMessage3;
 
-    public void verifyUnsuccessfulRegistration3(String message) {
-        Assert.assertTrue(shouldHaveText(errorMessage3,message,3));
-    }
-
-    @FindBy(xpath = "//div[contains(text(),'User already exists. Please try a different email.')]")
-    WebElement errorMessage2;
-
-    public void verifyUnsuccessfulRegistration2(String message) {
-        Assert.assertTrue(shouldHaveText(errorMessage2,message,3));
-    }
 
     public void verifyUnsuccessfulRegistrationWithWrongPassword() {
         String validationMessage = inputPassword.getAttribute("validationMessage");

@@ -1,0 +1,87 @@
+01:57:07.740 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\IMT - Teilnehmer\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+01:57:08.114 [main] INFO  com.tabakshop.tests.TestBase - Start test: CheckSortingProductsByPriceAscending
+01:57:11.167 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:57:11.476 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:57:11.515 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+01:57:11.585 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+01:57:11.664 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+01:57:11.704 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+01:57:11.754 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+01:57:11.775 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+01:57:11.810 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+01:57:11.839 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+01:57:11.936 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+01:57:11.962 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+01:57:12.010 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+01:57:12.025 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+01:57:12.046 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+01:57:12.060 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+01:57:12.118 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(),'Sign in')]
+01:57:12.138 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(),'Sign in')]
+01:57:12.527 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED CheckSortingProductsByPriceAscending
+01:57:12.528 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+01:57:12.530 [main] INFO  com.tabakshop.tests.TestBase - Start test: CheckSortingProductsByPriceDescending
+01:57:13.933 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:57:14.213 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:57:14.216 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+01:57:14.260 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+01:57:14.377 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+01:57:14.404 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+01:57:14.454 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+01:57:14.471 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+01:57:14.501 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+01:57:14.515 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+01:57:14.617 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+01:57:14.636 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+01:57:14.668 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+01:57:14.684 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+01:57:14.706 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+01:57:14.719 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+01:57:14.778 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(),'Sign in')]
+01:57:14.795 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(),'Sign in')]
+01:57:15.061 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED CheckSortingProductsByPriceDescending
+01:57:15.061 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+01:57:15.063 [main] INFO  com.tabakshop.tests.TestBase - Start test: checkFunctionalityArchivedProductLink
+01:57:16.333 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:57:16.630 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:57:16.631 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+01:57:16.683 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+01:57:16.796 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+01:57:16.817 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+01:57:16.874 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+01:57:16.897 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+01:57:16.926 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+01:57:16.940 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+01:57:17.052 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+01:57:17.067 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+01:57:17.096 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+01:57:17.110 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+01:57:17.132 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+01:57:17.156 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+01:57:17.210 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(),'Sign in')]
+01:57:17.225 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(),'Sign in')]
+01:57:17.453 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED checkFunctionalityArchivedProductLink
+01:57:17.453 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+01:57:17.454 [main] INFO  com.tabakshop.tests.TestBase - Start test: checkFunctionalityProductCatalogLink
+01:57:18.644 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:57:18.941 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:57:18.943 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+01:57:18.982 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+01:57:19.085 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+01:57:19.104 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+01:57:19.148 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+01:57:19.170 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+01:57:19.210 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+01:57:19.238 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+01:57:19.369 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+01:57:19.384 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+01:57:19.413 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+01:57:19.430 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+01:57:19.452 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+01:57:19.464 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+01:57:19.521 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(),'Sign in')]
+01:57:19.534 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(),'Sign in')]
+01:57:19.785 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED checkFunctionalityProductCatalogLink
+01:57:19.785 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
