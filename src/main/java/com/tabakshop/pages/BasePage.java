@@ -6,6 +6,7 @@
 package com.tabakshop.pages;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -40,6 +41,9 @@ public abstract class BasePage {
     public void moveWithJs(WebElement element, int x, int y) {
         js.executeScript("window.scrollBy(" + x + " , " + y +")");
 
+    } public void moveWithJsWithoutElement(int x, int y) {
+        js.executeScript("window.scrollBy(" + x + " , " + y +")");
+
     }
 
     public void type(WebElement element, String text) {
@@ -49,8 +53,27 @@ public abstract class BasePage {
             element.sendKeys(text);
         }
     }
+    public void typeDouble(WebElement element, Double number) {
+        if (number != null) {
+            click(element);
+            element.clear();
+            element.sendKeys(number.toString());
+        }
+    }
+    public void typeInt(WebElement element, int number) {
+            click(element);
+            element.clear();
+            element.sendKeys(String.valueOf(number));
+    }
     public boolean shouldHaveText(WebElement element, String text, int time) {
         return new WebDriverWait(driver, Duration.ofSeconds(time))
                 .until(ExpectedConditions.textToBePresentInElement(element,text));
+    }
+    public boolean isElementPresent(WebElement element) {
+        try {
+            return element.isDisplayed();
+        } catch (NoSuchElementException e) {
+            return false;
+        }
     }
 }

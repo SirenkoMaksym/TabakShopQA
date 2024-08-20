@@ -63,8 +63,7 @@ public class AdminCatalogPage extends BasePage {
     WebElement nameFirstProduct;
 
     public void verifyFirstProductMatchesSearch(String nameProduct) {
-        System.out.println(nameFirstProduct.getText());
-        System.out.println(nameProduct);
+
         Assert.assertTrue(nameFirstProduct.getText().equals(nameProduct));
     }
 
@@ -72,7 +71,7 @@ public class AdminCatalogPage extends BasePage {
     WebElement searchField;
 
     public AdminCatalogPage enterSearchingProduct(String nameProduct) {
-        pause(1000);
+        pause(2000);
         type(searchField, nameProduct);
         return this;
     }
@@ -83,5 +82,96 @@ public class AdminCatalogPage extends BasePage {
     public AdminCatalogPage clickOnSearchButton() {
         click(searchButton);
         return this;
+    }
+
+    @FindBy(xpath = "//main/div[2]/div[3]/button")
+    WebElement addProductButton;
+
+    public AdminCatalogPage clickOnAddButton() {
+        click(addProductButton);
+        return this;
+    }
+
+    @FindBy(xpath = "//form/div[1]/label[1]/input")
+    WebElement fieldNewProduct;
+
+    public AdminCatalogPage enterNameProduct(String nameNewProduct) {
+        type(fieldNewProduct, nameNewProduct);
+        return this;
+    }
+
+    @FindBy(xpath = "//form/div[1]/label[2]/input")
+    WebElement fieldNewPrice;
+
+    public AdminCatalogPage enterPrice(Double newPrice) {
+        typeDouble(fieldNewPrice, newPrice);
+        return this;
+    }
+
+    @FindBy(xpath = "//form/div[1]/label[3]/input")
+    WebElement fieldNewQuantity;
+
+    public AdminCatalogPage enterQuantity(int newQuantity) {
+        typeInt(fieldNewQuantity, newQuantity);
+        return this;
+    }
+
+    @FindBy(xpath = "//form/div[1]/label[4]/input")
+    WebElement fieldNewDesc;
+
+    public AdminCatalogPage enterDescription(String newDescription) {
+        type(fieldNewDesc, newDescription);
+        return this;
+    }
+
+    @FindBy(xpath = "//form/div[1]/label[5]/input")
+    WebElement fieldCharacter;
+
+    public AdminCatalogPage enterCharacteristics(String newCharacteristics) {
+        type(fieldCharacter, newCharacteristics);
+        return this;
+    }
+
+    @FindBy(xpath = "//form//button[2]")
+    WebElement AddProductButton;
+
+    public AdminCatalogPage clickOnAddProduct() {
+        moveWithJs(addProductButton, 0, 300);
+        pause(1000);
+        click(AddProductButton);
+        return this;
+    }
+
+    public void verifyProduct(String nameNewProduct) {
+        pause(2000);
+        type(searchField, nameNewProduct);
+        click(searchButton);
+        Assert.assertEquals(nameFirstProduct.getText(), nameNewProduct);
+    }
+
+    @FindBy(xpath = "//main/div[2]/div[4]/div[2]//button")
+    WebElement viewDetailsLink;
+
+    public AdminProductPage clickOnViewDetails() {
+        pause(1000);
+        click(viewDetailsLink);
+        return new AdminProductPage(driver);
+    }
+
+    public void checkAbsenceProduct(String nameDeleteProduct) {
+        pause(2000);
+        type(searchField, nameDeleteProduct);
+        pause(1000);
+        click(searchButton);
+
+        Assert.assertFalse(isElementPresent(nameFirstProduct));
+    }
+
+    @FindBy(xpath = "//ul/li[3]")
+    WebElement archivedLink;
+
+    public ArchivedProductsPage clickOnArchivedLink() {
+        click(archivedLink);
+        return new ArchivedProductsPage(driver);
     }
 }
