@@ -1,0 +1,59 @@
+23:48:13.728 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\IMT - Teilnehmer\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+23:48:13.809 [main] INFO  com.tabakshop.tests.TestBase - Start test: deleteNeuProduct
+23:48:15.965 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+23:48:16.206 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+23:48:16.249 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+23:48:16.310 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+23:48:16.387 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+23:48:16.423 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+23:48:16.468 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+23:48:16.499 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+23:48:16.533 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+23:48:16.559 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+23:48:16.650 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+23:48:16.668 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+23:48:16.704 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+23:48:16.719 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+23:48:16.743 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+23:48:16.763 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+23:48:16.824 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(),'Sign in')]
+23:48:16.840 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(),'Sign in')]
+23:48:17.894 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //ul/li[2]
+23:48:17.915 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //ul/li[2]
+23:48:19.000 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //input[@name='name']
+23:48:19.022 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //input[@name='name']
+23:48:19.065 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //input[@name='name']
+23:48:19.083 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //input[@name='name']
+23:48:19.112 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //input[@name='name']
+23:48:19.128 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //input[@name='name']
+23:48:19.186 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //input[@name='name']/../button
+23:48:19.204 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //input[@name='name']/../button
+23:48:19.239 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //main/div[2]/div[4]/div[2]//button
+23:48:19.257 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //main/div[2]/div[4]/div[2]//button
+23:48:19.312 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[2]
+23:48:19.333 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[2]
+23:48:21.368 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //input[@name='name']
+23:48:21.388 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //input[@name='name']
+23:48:21.430 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //input[@name='name']
+23:48:21.450 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //input[@name='name']
+23:48:21.468 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //input[@name='name']
+23:48:21.480 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //input[@name='name']
+23:48:22.537 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //input[@name='name']/../button
+23:48:22.560 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //input[@name='name']/../button
+23:48:22.588 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //main/div[2]/div[4]/div[2]//h5
+23:48:32.619 [main] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+23:48:32.619 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+23:48:32.619 [main] INFO  com.tabakshop.utils.MyListener - Method--> findElement
+23:48:32.619 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+23:48:32.620 [main] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//main/div[2]/div[4]/div[2]//h5"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [202546aa2f9c39d20c50875d26029c0d, findElement {value=//main/div[2]/div[4]/div[2]//h5, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58065}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58065/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 202546aa2f9c39d20c50875d26029c0d
+23:48:32.620 [main] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1080.png

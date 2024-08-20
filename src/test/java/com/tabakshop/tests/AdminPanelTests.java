@@ -78,4 +78,57 @@ public class AdminPanelTests extends TestBase {
                 .clickOnSignOutButton()
                 .verifySignInLink(SIGNIN_LINK);
     }
+    @Test
+    public void addNeuProduct(){
+        adminPanelPage
+                .clickOnCatalogProductsLink()
+                .clickOnAddButton()
+                .enterNameProduct(NAME_NEW_PRODUCT)
+                .enterPrice(NEW_PRICE)
+                .enterQuantity(NEW_QUANTITY)
+                .enterDescription(NEW_DESCRIPTION)
+                .enterCharacteristics(NEW_CHARACTERISTICS)
+                .clickOnAddProduct()
+                .verifyProduct(NAME_NEW_PRODUCT)
+                ;
+    }
+   @Test
+   public void deleteNeuProduct(){
+       adminPanelPage
+               .clickOnCatalogProductsLink()
+               .enterSearchingProduct(NAME_NEW_PRODUCT)
+               .clickOnSearchButton()
+               .clickOnViewDetails()
+               .clickOnDeleteProduct()
+               .checkAbsenceProduct(NAME_NEW_PRODUCT)
+       ;
+    }
+    @Test
+    public void addNeuProductToArchive(){
+        adminPanelPage
+                .clickOnCatalogProductsLink()
+                .clickOnAddButton()
+                .enterNameProduct(NAME_NEW_PRODUCT)
+                .enterPrice(NEW_PRICE)
+                .enterQuantity(NEW_QUANTITY)
+                .enterDescription(NEW_DESCRIPTION)
+                .enterCharacteristics(NEW_CHARACTERISTICS)
+                .clickOnAddProduct()
+                .enterSearchingProduct(NAME_NEW_PRODUCT)
+                .clickOnSearchButton()
+                .clickOnViewDetails()
+                .clickOnAddToArchive()
+                .clickOnArchivedLink()
+                .verifyArchivedProduct(NAME_NEW_PRODUCT)
+        ;
+    }
+    @Test
+    public void addProductFromArchive(){
+        adminPanelPage
+                .clickOnArchivedProductsLink()
+                .clickOnAddToCatalogButton(NAME_NEW_PRODUCT)
+                .clickOnCatalogLink()
+                .verifyProduct(NAME_NEW_PRODUCT)
+        ;
+    }
 }
