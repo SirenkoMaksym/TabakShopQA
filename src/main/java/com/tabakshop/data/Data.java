@@ -23,7 +23,7 @@ public class Data {
     public static final String EMPTY = "";
 
     public static final String LOGIN_MESSAGE = "Login";
-    public static final String LOGOUT_BUTTON  = "Logout";
+    public static final String LOGOUT_BUTTON  = "Sign out";
     public static final String SIGNOUT_BUTTON  = "Sign out";
     public static final String SIGNIN_LINK  = "Sign in";
     public static final String ADMIN_GREETING  = "Hello, Admin :)";
@@ -33,6 +33,8 @@ public class Data {
     public static final String ARCHIVE_INSCRIPTION = "Archived Products";
     public static final String ORDERS_INSCRIPTION = "View orders";
     public static final String EXAMPLE_PRODUCT = "Dunhill";
+    public static final String EXAMPLE_PRODUCT_PARTIAL = "L";
+
 
     public static final String tempEmail = TempEmailService.generateTempEmail();
 

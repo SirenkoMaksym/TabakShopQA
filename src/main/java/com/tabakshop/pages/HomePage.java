@@ -36,4 +36,21 @@ public class HomePage extends BasePage {
         boolean isActivated = TempEmailService.isAccountActivated(verificationLink);
         Assert.assertTrue(isActivated);
     }
+
+    @FindBy(xpath = "//button[text()='Catalog']")
+    WebElement catalogButton;
+
+    public CatalogPage clickOnCatalogButton() {
+        click(catalogButton);
+        return new CatalogPage(driver);
+    }
+
+    @FindBy(xpath = "//p[contains(text(),'Welcome to Tobacco!')]")
+    WebElement welcomeMessage;
+    public HomePage verifyHomePageLoaded() {
+        Assert.assertTrue(welcomeMessage.isDisplayed());
+        return this;
+    }
+
+
 }
