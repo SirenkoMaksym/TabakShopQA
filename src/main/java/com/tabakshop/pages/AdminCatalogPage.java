@@ -30,6 +30,7 @@ public class AdminCatalogPage extends BasePage {
     WebElement secondProduct;
 
     public void verifyPriceFirstSmaller() {
+        pause(3000);
         double firstProductPrice = Double.parseDouble(firstProduct.getText().replaceAll("[^\\d.]", ""));
         double secondProductPrice = Double.parseDouble(secondProduct.getText().replaceAll("[^\\d.]", ""));
 
@@ -71,7 +72,7 @@ public class AdminCatalogPage extends BasePage {
     WebElement searchField;
 
     public AdminCatalogPage enterSearchingProduct(String nameProduct) {
-        pause(2000);
+        pause(3000);
         type(searchField, nameProduct);
         return this;
     }
@@ -80,6 +81,7 @@ public class AdminCatalogPage extends BasePage {
     WebElement searchButton;
 
     public AdminCatalogPage clickOnSearchButton() {
+        pause(1000);
         click(searchButton);
         return this;
     }
@@ -104,6 +106,7 @@ public class AdminCatalogPage extends BasePage {
     WebElement fieldNewPrice;
 
     public AdminCatalogPage enterPrice(Double newPrice) {
+        pause(3000);
         typeDouble(fieldNewPrice, newPrice);
         return this;
     }
@@ -153,7 +156,7 @@ public class AdminCatalogPage extends BasePage {
     WebElement viewDetailsLink;
 
     public AdminProductPage clickOnViewDetails() {
-        pause(1000);
+        pause(2000);
         click(viewDetailsLink);
         return new AdminProductPage(driver);
     }

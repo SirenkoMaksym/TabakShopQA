@@ -8,11 +8,11 @@
             <class name="com.tabakshop.tests.RegistrationTests">
                 <methods>
                     <exclude name=".*positive.*"/>
-                    <exclude name=".*WithoutAgeConfirm.*"/>
                 </methods>
             </class>
             <class name="com.tabakshop.tests.LoginTests"/>
-
+            <class name="com.tabakshop.tests.AdminPanelTests"/>
+            <class name="com.tabakshop.tests.CatalogTests"/>
 
         </classes>
     </test>
