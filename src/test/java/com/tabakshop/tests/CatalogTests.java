@@ -32,12 +32,22 @@ public class CatalogTests extends TestBase {
                 .searchForProduct(EXAMPLE_PRODUCT)
                 .verifySingleProductIsDisplayed(EXAMPLE_PRODUCT);
     }
+
     @Test
     public void verifyProductSearchPartialName() {
         catalogPage
                 .searchForProduct(EXAMPLE_PRODUCT_PARTIAL)
                 .verifyProductsDisplayedByPartialName(EXAMPLE_PRODUCT_PARTIAL);
     }
+
+    @Test
+    public void searchProductsNegativeResult() {
+        catalogPage
+                .searchForProduct(EXAMPLE_PRODUCT_NEGATIVE)
+                .verifyNoProductsMessageDisplayed();
+
+    }
+
     @Test
     public void verifySortByPriceAscending() {
         catalogPage
@@ -58,6 +68,7 @@ public class CatalogTests extends TestBase {
                 .clickGoToHomeButton()
                 .verifyHomePageLoaded();
     }
+
     @Test
     public void verifyViewDetailsButton() {
         catalogPage
@@ -69,8 +80,6 @@ public class CatalogTests extends TestBase {
 //        catalogPage
 //                .verifyAllProductImagesDisplayed();
 //    }
-
-
 
 
 }

@@ -120,12 +120,21 @@ public class CatalogPage extends BasePage {
     }
 
     public ProductPage clickViewDetails(String exampleProduct) {
-        pause(3000);
+        pause(5000);
         WebElement viewDetailsButtonDynamic = driver.findElement(By.xpath(String.format("//h5[text()='%s']/ancestor::div[contains(@class, '_card_1vqdh_2')]//button[contains(text(),'View Details')]", exampleProduct)));
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", viewDetailsButtonDynamic);
 
-        pause(500);
+        pause(1000);
         viewDetailsButtonDynamic.click();
         return new ProductPage(driver);
+    }
+    @FindBy(xpath = "//p[contains(text(),'No products available')]")
+    WebElement noProductsMessage;
+
+    public CatalogPage verifyNoProductsMessageDisplayed() {
+        pause(1000);
+        Assert.assertTrue(noProductsMessage.isDisplayed(), "The 'No products available' message is not displayed.");
+        return this;
+
     }
 }
