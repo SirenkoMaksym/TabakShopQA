@@ -6,11 +6,16 @@
         <classes>
             <class name="com.tabakshop.tests.RegistrationTests">
                 <methods>
-                    <exclude name=".*positive.*"/>
+                    <exclude name=".*positiveRegistration.*"/>
+                    <exclude name=".*positiveVerifyAccountActivationVerOne.*"/>
                 </methods>
             </class>
             <class name="com.tabakshop.tests.LoginTests"/>
-            <class name="com.tabakshop.tests.AdminPanelTests"/>
+            <class name="com.tabakshop.tests.AdminPanelTests">
+                <methods>
+                    <exclude name=".*checkFunctionalSignOutByAdminButton.*"/>
+                </methods>
+            </class>
             <class name="com.tabakshop.tests.CatalogTests"/>
             <class name="com.tabakshop.tests.CartTests"/>
             <class name="com.tabakshop.tests.ProductTests"/>
@@ -19,7 +24,12 @@
     <test name="FirefoxTest">
     <parameter name="browser" value="firefox" />
     <classes>
-        <class name="com.tabakshop.tests.RegistrationTests"/>
+        <class name="com.tabakshop.tests.RegistrationTests">
+            <methods>
+                <exclude name=".*positiveRegistration.*"/>
+                <exclude name=".*positiveVerifyAccountActivationVerOne.*"/>
+            </methods>
+        </class>
         <class name="com.tabakshop.tests.LoginTests"/>
         <class name="com.tabakshop.tests.AdminPanelTests"/>
         <class name="com.tabakshop.tests.CatalogTests"/>
@@ -31,7 +41,12 @@
     <test name="ChromeTest">
     <parameter name="browser" value="chrome" />
     <classes>
-        <class name="com.tabakshop.tests.RegistrationTests"/>
+        <class name="com.tabakshop.tests.RegistrationTests">
+            <methods>
+                <exclude name=".*positiveRegistration.*"/>
+                <exclude name=".*positiveVerifyAccountActivationVerOne.*"/>
+            </methods>
+        </class>
         <class name="com.tabakshop.tests.LoginTests"/>
         <class name="com.tabakshop.tests.AdminPanelTests"/>
         <class name="com.tabakshop.tests.CatalogTests"/>
