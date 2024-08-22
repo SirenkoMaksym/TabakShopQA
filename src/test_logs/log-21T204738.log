@@ -1,0 +1,10 @@
+20:47:38.917 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\IMT - Teilnehmer\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+20:47:39.157 [main] INFO  com.tabakshop.tests.TestBase - Start test: checkingFunctionalityRegistrationButton
+20:47:41.907 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+20:47:43.235 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+20:47:43.283 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[@class='_navLink_1ngku_35'][2]
+20:47:43.380 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[@class='_navLink_1ngku_35'][2]
+20:47:43.459 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.tagName: h2
+20:47:43.494 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.tagName: h2

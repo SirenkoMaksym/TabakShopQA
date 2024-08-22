@@ -1,0 +1,40 @@
+20:59:55.904 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\IMT - Teilnehmer\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+20:59:55.980 [main] INFO  com.tabakshop.tests.TestBase - Start test: addProductFromArchive
+20:59:58.113 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+20:59:59.405 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+20:59:59.449 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+20:59:59.513 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+20:59:59.589 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+20:59:59.621 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+20:59:59.665 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+20:59:59.689 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+20:59:59.721 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+20:59:59.743 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+20:59:59.837 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+20:59:59.855 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+20:59:59.884 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+20:59:59.905 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+20:59:59.928 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+20:59:59.942 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+20:59:59.993 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(),'Sign in')]
+21:00:00.011 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(),'Sign in')]
+21:00:00.055 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //ul/li[3]
+21:00:01.062 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //ul/li[3]
+21:00:04.156 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //h5[contains(text(), 'Кубинские Сигары')]/../..//button[@class='addToCatalogButton']
+21:00:04.181 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //h5[contains(text(), 'Кубинские Сигары')]/../..//button[@class='addToCatalogButton']
+21:00:04.216 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //ul/li[2]
+21:00:04.237 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //ul/li[2]
+21:00:06.299 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //input[@name='name']
+21:00:06.324 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //input[@name='name']
+21:00:06.480 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //input[@name='name']
+21:00:06.501 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //input[@name='name']
+21:00:06.614 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //input[@name='name']
+21:00:06.631 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //input[@name='name']
+21:00:06.752 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //input[@name='name']/../button
+21:00:06.776 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //input[@name='name']/../button
+21:00:07.796 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //main/div[2]/div[4]/div[2]//h5
+21:00:07.816 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //main/div[2]/div[4]/div[2]//h5
+21:00:08.083 [main] INFO  com.tabakshop.tests.TestBase - Test result: PASSED addProductFromArchive
+21:00:08.083 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************

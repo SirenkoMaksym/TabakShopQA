@@ -1,0 +1,74 @@
+22:06:46.052 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\IMT - Teilnehmer\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+22:06:46.133 [main] INFO  com.tabakshop.tests.TestBase - Start test: deleteNeuProduct
+22:06:48.493 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+22:06:49.736 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+22:06:49.779 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+22:06:49.853 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+22:06:49.927 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+22:06:49.955 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+22:06:49.999 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+22:06:50.028 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+22:06:50.057 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+22:06:50.084 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+22:06:50.170 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+22:06:50.188 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+22:06:50.222 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+22:06:50.239 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+22:06:50.266 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+22:06:50.284 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+22:06:50.342 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(),'Sign in')]
+22:06:50.360 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(),'Sign in')]
+22:06:51.408 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //ul/li[2]
+22:06:51.433 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //ul/li[2]
+22:06:51.540 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //main/div[2]/div[3]/button
+22:06:51.576 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //main/div[2]/div[3]/button
+22:06:51.625 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[1]/label[1]/input
+22:06:51.653 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[1]/label[1]/input
+22:06:51.692 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[1]/label[1]/input
+22:06:51.708 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[1]/label[1]/input
+22:06:51.733 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[1]/label[1]/input
+22:06:51.753 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[1]/label[1]/input
+22:06:55.383 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[1]/label[2]/input
+22:06:55.411 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[1]/label[2]/input
+22:06:55.839 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[1]/label[2]/input
+22:06:55.988 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[1]/label[2]/input
+22:06:56.017 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[1]/label[2]/input
+22:06:56.039 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[1]/label[2]/input
+22:06:56.121 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[1]/label[3]/input
+22:06:56.225 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[1]/label[3]/input
+22:06:56.271 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[1]/label[3]/input
+22:06:56.289 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[1]/label[3]/input
+22:06:56.311 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[1]/label[3]/input
+22:06:56.324 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[1]/label[3]/input
+22:06:56.515 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[1]/label[4]/input
+22:06:56.546 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[1]/label[4]/input
+22:06:56.582 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[1]/label[4]/input
+22:06:56.597 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[1]/label[4]/input
+22:06:56.742 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[1]/label[4]/input
+22:06:56.769 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[1]/label[4]/input
+22:06:56.821 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[1]/label[5]/input
+22:06:56.877 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[1]/label[5]/input
+22:06:56.913 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[1]/label[5]/input
+22:06:56.931 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[1]/label[5]/input
+22:06:56.951 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[1]/label[5]/input
+22:06:56.968 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[1]/label[5]/input
+22:06:58.079 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form//button[2]
+22:06:58.100 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form//button[2]
+22:07:01.506 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //input[@name='name']
+22:07:01.527 [main] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+22:07:01.528 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+22:07:01.528 [main] INFO  com.tabakshop.utils.MyListener - Method--> findElement
+22:07:01.528 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+22:07:01.529 [main] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Failed to add a product!}
+  (Session info: chrome=127.0.6533.120): Failed to add a product!
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [26116d664a0ec780defd8fd73d965e41, findElement {value=//input[@name='name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52214}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52214/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26116d664a0ec780defd8fd73d965e41
+22:07:01.529 [main] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1862.png
+22:07:02.176 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED deleteNeuProduct
+22:07:02.176 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************

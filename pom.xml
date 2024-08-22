@@ -83,8 +83,8 @@
                 <version>2.21.0</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/test/resources/data.xml</suiteXmlFile>
-                        <suiteXmlFile>src/test/resources/login.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/testing1.xml</suiteXmlFile>
+
                     </suiteXmlFiles>
                     <systemPropertyVariables>                   <application.properties>/application.properties</application.properties>
                     </systemPropertyVariables>

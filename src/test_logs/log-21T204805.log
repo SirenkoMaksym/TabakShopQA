@@ -1,0 +1,33 @@
+20:48:06.584 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\IMT - Teilnehmer\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+20:48:06.671 [main] INFO  com.tabakshop.tests.TestBase - Start test: checkingFunctionalityRegistrationButton
+20:48:08.892 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+20:48:10.171 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+20:48:10.216 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+20:48:10.309 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+20:48:10.386 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.tagName: h2
+20:48:10.417 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.tagName: h2
+20:48:10.438 [main] INFO  com.tabakshop.tests.TestBase - Start test: loginNegativeEmptyEmailField
+20:48:11.733 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+20:48:13.014 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+20:48:13.017 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+20:48:13.056 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+20:48:13.145 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+20:48:13.178 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+20:48:13.225 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+20:48:13.244 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+20:48:13.274 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+20:48:13.296 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+20:48:13.352 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+20:48:13.379 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+20:48:13.418 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+20:48:13.437 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+20:48:13.461 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+20:48:13.494 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+20:48:13.571 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(),'Sign in')]
+20:48:13.591 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(),'Sign in')]
+20:48:13.630 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+20:48:13.661 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+20:48:13.671 [main] INFO  com.tabakshop.tests.TestBase - Start test: loginNegativeEmptyPasswordField
+20:48:15.449 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/

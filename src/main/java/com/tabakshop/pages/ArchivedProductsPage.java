@@ -31,9 +31,9 @@ public class ArchivedProductsPage extends BasePage {
     }
 
     public ArchivedProductsPage clickOnAddToCatalogButton(String nameNewProduct) {
-        pause(2000);
+        pause(3000);
         moveWithJsWithoutElement(0,300);
-        pause(1000);
+        pause(2000);
         click(driver.findElement(By.xpath("//h5[contains(text(), '" + nameNewProduct
                 + "')]/../..//button[@class='addToCatalogButton']")));
         return this;

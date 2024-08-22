@@ -5,10 +5,7 @@
 
 package com.tabakshop.tests;
 
-import com.tabakshop.pages.AdminCatalogPage;
-import com.tabakshop.pages.AdminPanelPage;
-import com.tabakshop.pages.HomePage;
-import com.tabakshop.pages.LoginUserPage;
+import com.tabakshop.pages.*;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -91,11 +88,25 @@ public class AdminPanelTests extends TestBase {
                 .clickOnAddProduct()
                 .verifyProduct(NAME_NEW_PRODUCT)
                 ;
+        new AdminCatalogPage(driver)
+                .enterSearchingProduct(NAME_NEW_PRODUCT)
+                .clickOnSearchButton()
+                .clickOnViewDetails()
+                .clickOnDeleteProduct()
+        ;
+
     }
    @Test
    public void deleteNeuProduct(){
        adminPanelPage
                .clickOnCatalogProductsLink()
+               .clickOnAddButton()
+               .enterNameProduct(NAME_NEW_PRODUCT)
+               .enterPrice(NEW_PRICE)
+               .enterQuantity(NEW_QUANTITY)
+               .enterDescription(NEW_DESCRIPTION)
+               .enterCharacteristics(NEW_CHARACTERISTICS)
+               .clickOnAddProduct()
                .enterSearchingProduct(NAME_NEW_PRODUCT)
                .clickOnSearchButton()
                .clickOnViewDetails()
@@ -121,14 +132,48 @@ public class AdminPanelTests extends TestBase {
                 .clickOnArchivedLink()
                 .verifyArchivedProduct(NAME_NEW_PRODUCT)
         ;
+
+
+
+
+        new ArchivedProductsPage(driver)
+                .clickOnAddToCatalogButton(NAME_NEW_PRODUCT)
+                .clickOnCatalogLink()
+                .enterSearchingProduct(NAME_NEW_PRODUCT)
+                .clickOnSearchButton()
+                .clickOnViewDetails()
+                .clickOnDeleteProduct()
+                ;
+
     }
     @Test
     public void addProductFromArchive(){
+        adminPanelPage
+                .clickOnCatalogProductsLink()
+                .clickOnAddButton()
+                .enterNameProduct(NAME_NEW_PRODUCT)
+                .enterPrice(NEW_PRICE)
+                .enterQuantity(NEW_QUANTITY)
+                .enterDescription(NEW_DESCRIPTION)
+                .enterCharacteristics(NEW_CHARACTERISTICS)
+                .clickOnAddProduct()
+                .enterSearchingProduct(NAME_NEW_PRODUCT)
+                .clickOnSearchButton()
+                .clickOnViewDetails()
+                .clickOnAddToArchive()
+                ;
         adminPanelPage
                 .clickOnArchivedProductsLink()
                 .clickOnAddToCatalogButton(NAME_NEW_PRODUCT)
                 .clickOnCatalogLink()
                 .verifyProduct(NAME_NEW_PRODUCT)
         ;
+        new AdminCatalogPage(driver)
+                .enterSearchingProduct(NAME_NEW_PRODUCT)
+                .clickOnSearchButton()
+                .clickOnViewDetails()
+                .clickOnDeleteProduct()
+        ;
+
     }
 }
