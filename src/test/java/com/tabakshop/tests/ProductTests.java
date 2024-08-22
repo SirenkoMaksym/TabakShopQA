@@ -6,13 +6,16 @@ import org.testng.annotations.Test;
 
 import static com.tabakshop.data.Data.*;
 
-public class ProductTests extends TestBase{
-
+public class ProductTests extends TestBase {
 
     private CatalogPage catalogPage;
     private ProductPage productPage;
-    private boolean isLoginRequired = true;
+    private boolean isLoginRequired;
+
     @BeforeMethod
+    public void setup() {
+    }
+
     public void loginAsRegisteredUser() {
         if (isLoginRequired) {
             HomePage homePage = new HomePage(driver);
@@ -24,9 +27,11 @@ public class ProductTests extends TestBase{
                     .clickOnSignInButton();
         }
     }
+
     @Test
     public void successfulAdditionOfAProductForARegisteredUser() {
         isLoginRequired = true;
+        loginAsRegisteredUser();
 
         HomePage homePage = new HomePage(driver);
         homePage.clickOnCatalogButton();
@@ -42,8 +47,9 @@ public class ProductTests extends TestBase{
     }
 
     @Test
-    public void unsuccessfulAdditionOfAProductForAnUnregisteredUser(){
+    public void unsuccessfulAdditionOfAProductForAnUnregisteredUser() {
         isLoginRequired = false;
+
         HomePage homePage = new HomePage(driver);
         homePage.clickOnCatalogButton();
         catalogPage = new CatalogPage(driver);
@@ -54,11 +60,13 @@ public class ProductTests extends TestBase{
         productPage
                 .clickAddToCart()
                 .verifyUnsuccessMessage(MESSAGEUNREGISTERUSER);
-
     }
+
     @Test
     public void verifyBackLinkNavigatesToCatalog() {
         isLoginRequired = true;
+        loginAsRegisteredUser();
+
         HomePage homePage = new HomePage(driver);
         homePage.clickOnCatalogButton();
         catalogPage = new CatalogPage(driver);
@@ -68,6 +76,4 @@ public class ProductTests extends TestBase{
         catalogPage = productPage.clickBackLink();
         catalogPage.verifyPageTitle(CATALOG_INSCRIPTION);
     }
-
-
 }

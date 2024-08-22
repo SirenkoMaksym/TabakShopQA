@@ -30,12 +30,6 @@ public class Data {
     public static final String SIGNOUT_BUTTON  = "Sign out";
     public static final String SIGNIN_LINK  = "Sign in";
     public static final String ADMIN_GREETING  = "Hello, Admin :)";
-
-    public static final String SIGNOUT_BUTTON = "Sign out";
-    public static final String SIGNIN_LINK = "Sign in";
-    public static final String ADMIN_GREETING = "Hello, Admin :)";
-
-
     public static final String NOT_EXIST_PASSWORD = "7465HffHHY***$64";
     public static final String WRONG_EMAIL_EXAMPLE = "test3@gmail.com";
     public static final String CATALOG_INSCRIPTION = "Product Catalog";
