@@ -21,7 +21,6 @@ public class ApplicationManager {
         this.browser = browser;
     }
     public WebDriver startTest() {
-
         if (browser.equalsIgnoreCase("chrome")) {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-search-engine-choice-screen");

@@ -13,6 +13,8 @@
             <class name="com.tabakshop.tests.LoginTests"/>
             <class name="com.tabakshop.tests.AdminPanelTests"/>
             <class name="com.tabakshop.tests.CatalogTests"/>
+            <class name="com.tabakshop.tests.CartTests"/>
+            <class name="com.tabakshop.tests.ProductTests"/>
 
         </classes>
     </test>

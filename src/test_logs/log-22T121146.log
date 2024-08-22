@@ -1,0 +1,86 @@
+12:11:46.800 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\IMT - Teilnehmer\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+12:11:49.238 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+12:11:49.474 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+12:11:49.566 [main] INFO  com.tabakshop.tests.TestBase - Start test!  checkingFunctionalityRegistrationButton
+12:11:49.607 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED checkingFunctionalityRegistrationButton
+12:11:49.607 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.612 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithAlreadyRegisteredUsers
+12:11:49.612 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.620 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithWrongConfirmPassword
+12:11:49.621 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.633 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithWrongEmail
+12:11:49.634 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.636 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithWrongEmail
+12:11:49.636 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.639 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithWrongEmail
+12:11:49.639 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.642 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithWrongEmail
+12:11:49.642 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.645 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithWrongEmail
+12:11:49.646 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.648 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithWrongEmail
+12:11:49.648 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.650 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithWrongEmail
+12:11:49.650 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.653 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithWrongEmail
+12:11:49.653 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.657 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithWrongEmail
+12:11:49.657 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.662 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithWrongPassword
+12:11:49.662 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.665 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithWrongPassword
+12:11:49.665 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.668 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithWrongPassword
+12:11:49.670 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.674 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithWrongPassword
+12:11:49.674 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.677 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithWrongPassword
+12:11:49.677 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.679 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithWrongPassword
+12:11:49.679 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.681 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithWrongPassword
+12:11:49.681 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.688 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithWrongPassword
+12:11:49.688 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.694 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithWrongPassword
+12:11:49.694 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.697 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithWrongPassword
+12:11:49.697 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.709 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithWrongPassword
+12:11:49.710 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.713 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithWrongPassword
+12:11:49.713 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.718 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithoutAgeConfirmation
+12:11:49.719 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.721 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithoutConfirmPassword
+12:11:49.721 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.724 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithoutEmail
+12:11:49.724 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.728 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED negativeRegistrationWithoutPassword
+12:11:49.728 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.740 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED positiveRegistration
+12:11:49.740 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.745 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED positiveRegistration
+12:11:49.745 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.748 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED positiveRegistration
+12:11:49.748 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.749 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED positiveRegistration
+12:11:49.749 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.750 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED positiveRegistration
+12:11:49.750 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.757 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED positiveRegistration
+12:11:49.758 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.762 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED positiveRegistration
+12:11:49.762 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.767 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED positiveRegistration
+12:11:49.767 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.772 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED positiveRegistration
+12:11:49.773 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.778 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED positiveRegistration
+12:11:49.778 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.784 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED positiveVerifyAccountActivationVerOne
+12:11:49.784 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:11:49.789 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED positiveVerifyAccountActivationVerTwo
+12:11:49.789 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************

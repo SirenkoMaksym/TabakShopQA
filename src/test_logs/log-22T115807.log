@@ -1,0 +1,22 @@
+11:58:07.847 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\IMT - Teilnehmer\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+11:58:10.286 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+11:58:10.549 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+11:58:10.665 [main] INFO  com.tabakshop.tests.TestBase - Start test!  searchProductsNegativeResult
+11:58:10.712 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED searchProductsNegativeResult
+11:58:10.713 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+11:58:10.717 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED verifyCatalogPageLoaded
+11:58:10.717 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+11:58:10.724 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED verifyGoToHomeButton
+11:58:10.724 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+11:58:10.732 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED verifyProductSearchFullName
+11:58:10.732 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+11:58:10.736 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED verifyProductSearchPartialName
+11:58:10.736 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+11:58:10.747 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED verifySortByPriceAscending
+11:58:10.748 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+11:58:10.758 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED verifySortByPriceDescending
+11:58:10.758 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+11:58:10.764 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED verifyViewDetailsButton
+11:58:10.766 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************

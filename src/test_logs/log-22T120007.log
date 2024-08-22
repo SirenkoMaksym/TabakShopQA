@@ -1,0 +1,28 @@
+12:00:07.801 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\IMT - Teilnehmer\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+12:00:10.442 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+12:00:10.662 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+12:00:10.748 [main] INFO  com.tabakshop.tests.TestBase - Start test!  CheckSortingProductsByPriceAscending
+12:00:10.785 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED CheckSortingProductsByPriceAscending
+12:00:10.785 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:00:10.791 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED CheckSortingProductsByPriceDescending
+12:00:10.793 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:00:10.797 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED addNeuProduct
+12:00:10.797 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:00:10.802 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED addNeuProductToArchive
+12:00:10.802 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:00:10.805 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED addProductFromArchive
+12:00:10.805 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:00:10.808 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED checkFunctionalSearchByAdminCatalog
+12:00:10.808 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:00:10.820 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED checkFunctionalSignOutByAdminButton
+12:00:10.821 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:00:10.828 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED checkFunctionalViewOrdersLink
+12:00:10.829 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:00:10.844 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED checkFunctionalityArchivedProductLink
+12:00:10.844 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:00:10.848 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED checkFunctionalityProductCatalogLink
+12:00:10.848 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+12:00:10.855 [main] ERROR com.tabakshop.tests.TestBase - Test result FAILED deleteNeuProduct
+12:00:10.856 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************

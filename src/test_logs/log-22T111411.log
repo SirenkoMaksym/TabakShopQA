@@ -1,0 +1,212 @@
+11:14:12.447 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\IMT - Teilnehmer\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+11:14:12.815 [main] INFO  com.tabakshop.tests.TestBase - Start test: verifyClearCartButton
+11:14:15.449 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+11:14:15.665 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+11:14:15.715 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+11:14:15.791 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+11:14:15.891 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+11:14:16.001 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+11:14:16.053 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+11:14:16.085 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+11:14:16.147 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+11:14:16.186 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+11:14:16.292 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+11:14:16.318 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+11:14:16.360 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+11:14:16.385 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+11:14:16.414 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+11:14:16.435 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+11:14:16.487 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(),'Sign in')]
+11:14:16.518 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(),'Sign in')]
+11:14:16.572 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Catalog']
+11:14:17.547 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Catalog']
+11:14:22.647 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //h5[text()='Dunhill']/ancestor::div[contains(@class, '_card_1vqdh_2')]//button[contains(text(),'View Details')]
+11:14:22.944 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //h5[text()='Dunhill']/ancestor::div[contains(@class, '_card_1vqdh_2')]//button[contains(text(),'View Details')]
+11:14:24.196 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(@class, 'add-to-basket-button')]
+11:14:24.970 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(@class, 'add-to-basket-button')]
+11:14:26.020 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[contains(text(),'Cart')]
+11:14:26.041 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[contains(text(),'Cart')]
+11:14:26.088 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //h1[contains(text(), 'Your Cart')]
+11:14:26.108 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //h1[contains(text(), 'Your Cart')]
+11:14:28.150 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: .clear-cart-button
+11:14:28.169 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: .clear-cart-button
+11:14:30.192 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: .item-title
+11:14:40.259 [main] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+11:14:40.260 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+11:14:40.260 [main] INFO  com.tabakshop.utils.MyListener - Method--> findElement
+11:14:40.260 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+11:14:40.261 [main] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".item-title"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9f516d47ca4ba9203c27b033a942b98, findElement {value=.item-title, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60450}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60450/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d9f516d47ca4ba9203c27b033a942b98
+11:14:40.261 [main] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1372.png
+11:14:40.703 [main] INFO  com.tabakshop.tests.TestBase - Test result: PASSED verifyClearCartButton
+11:14:40.703 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+11:14:40.705 [main] INFO  com.tabakshop.tests.TestBase - Start test: verifyDecreaseQuantityButton
+11:14:41.996 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+11:14:42.228 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+11:14:42.234 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+11:14:42.267 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+11:14:42.376 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+11:14:42.402 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+11:14:42.448 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+11:14:42.471 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+11:14:42.508 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+11:14:42.524 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+11:14:42.618 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+11:14:42.633 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+11:14:42.661 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+11:14:42.675 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+11:14:42.695 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+11:14:42.706 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+11:14:42.762 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(),'Sign in')]
+11:14:42.786 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(),'Sign in')]
+11:14:42.826 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Catalog']
+11:14:43.746 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Catalog']
+11:14:48.813 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //h5[text()='Dunhill']/ancestor::div[contains(@class, '_card_1vqdh_2')]//button[contains(text(),'View Details')]
+11:14:48.833 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //h5[text()='Dunhill']/ancestor::div[contains(@class, '_card_1vqdh_2')]//button[contains(text(),'View Details')]
+11:14:49.914 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(@class, 'add-to-basket-button')]
+11:14:50.754 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(@class, 'add-to-basket-button')]
+11:14:51.796 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[contains(text(),'Cart')]
+11:14:51.814 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[contains(text(),'Cart')]
+11:14:51.885 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //h1[contains(text(), 'Your Cart')]
+11:14:51.916 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //h1[contains(text(), 'Your Cart')]
+11:14:51.938 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //div[@class='quantity-control']//span
+11:14:53.411 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //div[@class='quantity-control']//span
+11:14:53.425 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //div[@class='quantity-control']//button[text()='+']
+11:14:53.444 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //div[@class='quantity-control']//button[text()='+']
+11:14:58.495 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //div[@class='quantity-control']//span
+11:14:58.508 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //div[@class='quantity-control']//span
+11:14:58.517 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //div[@class='quantity-control']//button[text()='-']
+11:14:58.533 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //div[@class='quantity-control']//button[text()='-']
+11:15:01.588 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //div[@class='quantity-control']//span
+11:15:01.605 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //div[@class='quantity-control']//span
+11:15:01.919 [main] INFO  com.tabakshop.tests.TestBase - Test result: PASSED verifyDecreaseQuantityButton
+11:15:01.919 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+11:15:01.920 [main] INFO  com.tabakshop.tests.TestBase - Start test: verifyDeleteButton
+11:15:03.036 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+11:15:03.261 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+11:15:03.264 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+11:15:03.297 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+11:15:03.392 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+11:15:03.418 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+11:15:03.457 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+11:15:03.474 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+11:15:03.503 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+11:15:03.516 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+11:15:03.600 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+11:15:03.627 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+11:15:03.661 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+11:15:03.674 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+11:15:03.694 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+11:15:03.705 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+11:15:03.753 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(),'Sign in')]
+11:15:03.771 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(),'Sign in')]
+11:15:03.822 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Catalog']
+11:15:04.762 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Catalog']
+11:15:09.822 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //h5[text()='Dunhill']/ancestor::div[contains(@class, '_card_1vqdh_2')]//button[contains(text(),'View Details')]
+11:15:09.844 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //h5[text()='Dunhill']/ancestor::div[contains(@class, '_card_1vqdh_2')]//button[contains(text(),'View Details')]
+11:15:10.943 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(@class, 'add-to-basket-button')]
+11:15:11.786 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(@class, 'add-to-basket-button')]
+11:15:12.829 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[contains(text(),'Cart')]
+11:15:12.851 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[contains(text(),'Cart')]
+11:15:12.947 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //h1[contains(text(), 'Your Cart')]
+11:15:12.995 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //h1[contains(text(), 'Your Cart')]
+11:15:13.035 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: .delete-button
+11:15:14.547 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: .delete-button
+11:15:16.641 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: .item-title
+11:15:26.706 [main] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+11:15:26.706 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+11:15:26.706 [main] INFO  com.tabakshop.utils.MyListener - Method--> findElement
+11:15:26.706 [main] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+11:15:26.707 [main] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".item-title"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6231c0ee211c7215558e3b325b09d6e4, findElement {value=.item-title, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60500}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60500/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6231c0ee211c7215558e3b325b09d6e4
+11:15:26.707 [main] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1133.png
+11:15:27.122 [main] INFO  com.tabakshop.tests.TestBase - Test result: PASSED verifyDeleteButton
+11:15:27.122 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+11:15:27.123 [main] INFO  com.tabakshop.tests.TestBase - Start test: verifyIncreaseQuantityButton
+11:15:28.217 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+11:15:28.444 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+11:15:28.447 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+11:15:28.480 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+11:15:28.577 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+11:15:28.599 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+11:15:28.648 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+11:15:28.663 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+11:15:28.692 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+11:15:28.705 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+11:15:28.805 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+11:15:28.821 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+11:15:28.857 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+11:15:28.868 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+11:15:28.887 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+11:15:28.898 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+11:15:28.953 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(),'Sign in')]
+11:15:28.970 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(),'Sign in')]
+11:15:29.003 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Catalog']
+11:15:30.024 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Catalog']
+11:15:35.085 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //h5[text()='Dunhill']/ancestor::div[contains(@class, '_card_1vqdh_2')]//button[contains(text(),'View Details')]
+11:15:35.103 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //h5[text()='Dunhill']/ancestor::div[contains(@class, '_card_1vqdh_2')]//button[contains(text(),'View Details')]
+11:15:36.202 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(@class, 'add-to-basket-button')]
+11:15:37.025 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(@class, 'add-to-basket-button')]
+11:15:38.076 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[contains(text(),'Cart')]
+11:15:38.091 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[contains(text(),'Cart')]
+11:15:38.161 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //h1[contains(text(), 'Your Cart')]
+11:15:38.192 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //h1[contains(text(), 'Your Cart')]
+11:15:38.209 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //div[@class='quantity-control']//span
+11:15:39.741 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //div[@class='quantity-control']//span
+11:15:44.769 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //div[@class='quantity-control']//span
+11:15:44.786 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //div[@class='quantity-control']//span
+11:15:44.794 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //div[@class='quantity-control']//button[text()='+']
+11:15:44.805 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //div[@class='quantity-control']//button[text()='+']
+11:15:47.832 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //div[@class='quantity-control']//span
+11:15:47.848 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //div[@class='quantity-control']//span
+11:15:48.147 [main] INFO  com.tabakshop.tests.TestBase - Test result: PASSED verifyIncreaseQuantityButton
+11:15:48.147 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+11:15:48.148 [main] INFO  com.tabakshop.tests.TestBase - Start test: verifyProductInCartTest
+11:15:49.257 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+11:15:49.459 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+11:15:49.460 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+11:15:49.489 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+11:15:49.591 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+11:15:49.610 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+11:15:49.666 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+11:15:49.695 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+11:15:49.731 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+11:15:49.747 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+11:15:49.851 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+11:15:49.867 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+11:15:49.901 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+11:15:49.913 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+11:15:49.934 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+11:15:49.948 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+11:15:50.012 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(),'Sign in')]
+11:15:50.030 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(),'Sign in')]
+11:15:50.071 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Catalog']
+11:15:51.041 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Catalog']
+11:15:56.113 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //h5[text()='Dunhill']/ancestor::div[contains(@class, '_card_1vqdh_2')]//button[contains(text(),'View Details')]
+11:15:56.129 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //h5[text()='Dunhill']/ancestor::div[contains(@class, '_card_1vqdh_2')]//button[contains(text(),'View Details')]
+11:15:57.196 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(@class, 'add-to-basket-button')]
+11:15:58.022 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(@class, 'add-to-basket-button')]
+11:15:59.068 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[contains(text(),'Cart')]
+11:15:59.088 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[contains(text(),'Cart')]
+11:15:59.146 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //h1[contains(text(), 'Your Cart')]
+11:15:59.181 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //h1[contains(text(), 'Your Cart')]
+11:15:59.192 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: .item-title
+11:16:00.669 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: .item-title
+11:16:01.014 [main] INFO  com.tabakshop.tests.TestBase - Test result: PASSED verifyProductInCartTest
+11:16:01.014 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************

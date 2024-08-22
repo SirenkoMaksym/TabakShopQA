@@ -1,0 +1,44 @@
+11:41:01.764 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\QA\TabakShopQA\src\test\resources\testing1.xml
+
+11:41:04.190 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+11:41:04.396 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+11:41:04.565 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+11:41:04.667 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+11:41:04.762 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+11:41:04.806 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+11:41:04.864 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+11:41:04.896 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+11:41:04.926 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+11:41:04.955 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+11:41:05.034 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+11:41:05.051 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+11:41:05.085 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+11:41:05.102 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+11:41:05.128 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+11:41:05.144 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+11:41:05.199 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(),'Sign in')]
+11:41:05.219 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(),'Sign in')]
+11:41:06.277 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //ul/li[2]
+11:41:06.299 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //ul/li[2]
+11:41:07.416 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //main/div[2]/div[2]/button[1]
+11:41:07.589 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //main/div[2]/div[2]/button[1]
+11:41:10.803 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //main/div[2]/div[4]/div[2]/div[1]/div[1]/p
+11:41:10.839 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //main/div[2]/div[4]/div[2]/div[1]/div[1]/p
+11:41:10.853 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //main/div[2]/div[4]/div[2]/div[2]/div[1]/p
+11:41:10.871 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //main/div[2]/div[4]/div[2]/div[2]/div[1]/p
+11:41:10.887 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+11:41:20.982 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+11:41:20.982 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+11:41:20.982 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Method--> findElement
+11:41:20.983 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+11:41:20.984 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Sign in"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9c17428fa861e4e6464bea87f695a1c1, findElement {value=Sign in, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60932}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60932/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c17428fa861e4e6464bea87f695a1c1
+11:41:20.984 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1346.png

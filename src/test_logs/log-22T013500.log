@@ -1,0 +1,163 @@
+01:35:01.178 [TestNG-tests-3] INFO  com.tabakshop.tests.TestBase - Start test: checkingFunctionalityRegistrationButton
+01:35:01.178 [TestNG-tests-1] INFO  com.tabakshop.tests.TestBase - Start test: checkingFunctionalityRegistrationButton
+01:35:01.178 [TestNG-tests-2] INFO  com.tabakshop.tests.TestBase - Start test: checkingFunctionalityRegistrationButton
+01:35:04.697 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:35:04.684 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:35:04.719 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:35:06.024 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:35:06.130 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[@class='_navLink_1ngku_35'][2]
+01:35:06.179 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:35:06.184 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[@class='_navLink_1ngku_35'][2]
+01:35:06.264 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:35:06.265 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[@class='_navLink_1ngku_35'][2]
+01:35:06.299 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[@class='_navLink_1ngku_35'][2]
+01:35:06.301 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[@class='_navLink_1ngku_35'][2]
+01:35:06.341 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[@class='_navLink_1ngku_35'][2]
+01:35:06.448 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Before find element ->By.tagName: h2
+01:35:06.562 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.tagName: h2
+01:35:06.655 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - Before find element ->By.tagName: h2
+01:35:06.701 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - After find element ->By.tagName: h2
+01:35:06.712 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.tagName: h2
+01:35:06.732 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - After find element ->By.tagName: h2
+01:35:07.031 [TestNG-tests-3] INFO  com.tabakshop.tests.TestBase - Test result: PASSED checkingFunctionalityRegistrationButton
+01:35:07.032 [TestNG-tests-3] INFO  com.tabakshop.tests.TestBase - ************************************************************
+01:35:07.034 [TestNG-tests-2] INFO  com.tabakshop.tests.TestBase - Test result: PASSED checkingFunctionalityRegistrationButton
+01:35:07.034 [TestNG-tests-3] INFO  com.tabakshop.tests.TestBase - Start test: negativeRegistrationWithAlreadyRegisteredUsers
+01:35:07.034 [TestNG-tests-2] INFO  com.tabakshop.tests.TestBase - ************************************************************
+01:35:07.035 [TestNG-tests-2] INFO  com.tabakshop.tests.TestBase - Start test: negativeRegistrationWithAlreadyRegisteredUsers
+01:35:07.045 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+01:35:07.045 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+01:35:07.045 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Method--> quit
+01:35:07.045 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+01:35:07.045 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e85e28bfc23aaf554960c5b8506036ed, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53251}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53251/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e85e28bfc23aaf554960c5b8506036ed
+01:35:07.046 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1801.png
+01:35:07.163 [TestNG-tests-1] INFO  com.tabakshop.tests.TestBase - Start test: checkingFunctionalityRegistrationButton
+01:35:09.547 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:35:09.741 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:35:10.892 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:35:10.897 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[@class='_navLink_1ngku_35'][2]
+01:35:11.181 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:35:11.206 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[@class='_navLink_1ngku_35'][2]
+01:35:11.217 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:35:11.290 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[@class='_navLink_1ngku_35'][2]
+01:35:11.323 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[@class='_navLink_1ngku_35'][2]
+01:35:11.404 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:35:11.407 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+01:35:11.407 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+01:35:11.407 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - Method--> click
+01:35:11.407 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+01:35:11.408 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fec069728d50d0524c45e5fcd7acaf81, clickElement {id=f.B197C4368FBDF12F49D74BF48F6B830E.d.88039C57D5A8BAB0B2C7B6B2DAFF4EF8.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53304}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53304/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fec069728d50d0524c45e5fcd7acaf81)] -> xpath: //a[@class='_navLink_1ngku_35'][2]]
+Session ID: fec069728d50d0524c45e5fcd7acaf81
+01:35:11.408 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1011.png
+01:35:11.411 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+01:35:11.552 [TestNG-tests-2] INFO  com.tabakshop.tests.TestBase - Start test: checkingFunctionalityRegistrationButton
+01:35:11.590 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+01:35:11.590 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+01:35:11.590 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Method--> click
+01:35:11.590 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+01:35:11.591 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fec069728d50d0524c45e5fcd7acaf81, clickElement {id=f.B197C4368FBDF12F49D74BF48F6B830E.d.88039C57D5A8BAB0B2C7B6B2DAFF4EF8.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53304}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53304/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fec069728d50d0524c45e5fcd7acaf81)] -> xpath: //a[@class='_navLink_1ngku_35'][2]]
+Session ID: fec069728d50d0524c45e5fcd7acaf81
+01:35:11.591 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1813.png
+01:35:11.636 [TestNG-tests-3] INFO  com.tabakshop.tests.TestBase - Start test: checkingFunctionalityRegistrationButton
+01:35:11.684 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+01:35:11.853 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.tagName: h2
+01:35:11.912 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.tagName: h2
+01:35:14.257 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:35:14.261 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:35:15.560 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:35:15.573 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+01:35:15.687 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:35:15.688 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+01:35:15.775 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+01:35:15.793 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+01:35:15.920 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Before find element ->By.tagName: h2
+01:35:16.215 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - Before find element ->By.tagName: h2
+01:35:16.240 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - After find element ->By.tagName: h2
+01:35:16.253 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - After find element ->By.tagName: h2
+01:35:16.469 [TestNG-tests-1] INFO  com.tabakshop.tests.TestBase - Test result: PASSED checkingFunctionalityRegistrationButton
+01:35:16.469 [TestNG-tests-1] INFO  com.tabakshop.tests.TestBase - ************************************************************
+01:35:16.470 [TestNG-tests-1] INFO  com.tabakshop.tests.TestBase - Start test: loginNegativeEmptyEmailField
+01:35:18.386 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:35:18.728 [TestNG-tests-3] INFO  com.tabakshop.tests.TestBase - Test result: PASSED checkingFunctionalityRegistrationButton
+01:35:18.728 [TestNG-tests-3] INFO  com.tabakshop.tests.TestBase - ************************************************************
+01:35:18.728 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+01:35:18.728 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+01:35:18.728 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - Method--> quit
+01:35:18.728 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+01:35:18.728 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7d4fe912f562a919f8c2e931e7f18a4f, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53358}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53358/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+01:35:18.728 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1320.png
+01:35:18.728 [TestNG-tests-3] INFO  com.tabakshop.tests.TestBase - Start test: loginNegativeEmptyEmailField
+01:35:18.739 [TestNG-tests-2] INFO  com.tabakshop.tests.TestBase - Start test: CheckSortingProductsByPriceAscending
+01:35:20.431 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:35:20.432 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+01:35:20.731 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+01:35:20.983 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:35:21.191 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+01:35:21.488 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+01:35:21.660 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+01:35:21.701 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+01:35:21.932 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+01:35:21.950 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+01:35:22.365 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+01:35:22.552 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+01:35:22.642 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:35:22.649 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+01:35:22.667 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:35:22.877 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+01:35:23.393 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:35:23.448 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+01:35:23.462 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+01:35:23.463 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+01:35:23.463 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Method--> click
+01:35:23.463 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+01:35:23.463 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ad6c6592a799afaf1277b8915bbb6f81, clickElement {id=f.508DC4137BB7823B0FF804224F593189.d.3B474F17A88C13EE0DD3321EB3093787.e.8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53421}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53421/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ad6c6592a799afaf1277b8915bbb6f81)] -> link text: Sign in]
+Session ID: ad6c6592a799afaf1277b8915bbb6f81
+01:35:23.463 [TestNG-tests-3] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1352.png
+01:35:23.568 [TestNG-tests-3] INFO  com.tabakshop.tests.TestBase - Start test: CheckSortingProductsByPriceAscending
+01:35:23.781 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+01:35:23.902 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - After find element ->By.linkText: Sign in
+01:35:24.080 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+01:35:24.478 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+01:35:24.513 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+01:35:24.570 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+01:35:24.630 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+01:35:24.817 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(),'Sign in')]
+01:35:24.864 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(),'Sign in')]
+01:35:24.884 [TestNG-tests-2] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+01:35:24.993 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+01:35:25.033 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email

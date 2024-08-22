@@ -1,0 +1,39 @@
+01:29:50.707 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\QA\TabakShopQA\src\test\resources\testing.xml
+
+01:29:50.796 [main] INFO  com.tabakshop.tests.TestBase - Start test: checkingFunctionalityRegistrationButton
+01:29:53.169 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:29:54.352 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:29:54.409 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[@class='_navLink_1ngku_35'][2]
+01:29:54.512 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[@class='_navLink_1ngku_35'][2]
+01:29:54.592 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.tagName: h2
+01:29:54.635 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.tagName: h2
+01:29:55.145 [main] INFO  com.tabakshop.tests.TestBase - Test result: PASSED checkingFunctionalityRegistrationButton
+01:29:55.146 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+01:29:55.150 [main] INFO  com.tabakshop.tests.TestBase - Start test: negativeRegistrationWithAlreadyRegisteredUsers
+01:29:56.946 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:29:58.191 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+01:29:58.195 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[@class='_navLink_1ngku_35'][2]
+01:29:58.263 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[@class='_navLink_1ngku_35'][2]
+01:29:58.470 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+01:29:58.512 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+01:29:58.587 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+01:29:58.690 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+01:29:58.750 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+01:29:58.779 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+01:29:58.880 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+01:29:58.903 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+01:29:58.945 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+01:29:58.965 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+01:29:58.992 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+01:29:59.011 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+01:29:59.070 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+01:29:59.091 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+01:29:59.124 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+01:29:59.141 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+01:29:59.171 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+01:29:59.196 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+01:29:59.281 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[4]//input[@type='checkbox']
+01:29:59.312 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[4]//input[@type='checkbox']
+01:29:59.364 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[5]//input[@type='checkbox']
+01:29:59.388 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[5]//input[@type='checkbox']

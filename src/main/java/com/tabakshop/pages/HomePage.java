@@ -16,7 +16,8 @@ public class HomePage extends BasePage {
         super(driver);
     }
 
-    @FindBy(xpath = "//a[@class='_navLink_1ngku_35'][2]")
+
+            @FindBy(xpath = "//a[contains(text(),'Register')]")
     WebElement registrationButton;
 
     public RegistrationPage clickOnRegistrationButton() {

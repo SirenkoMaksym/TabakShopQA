@@ -1,0 +1,98 @@
+12:15:16.174 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\IMT - Teilnehmer\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+12:15:16.312 [main] INFO  com.tabakshop.tests.TestBase - Start test: searchProductsNegativeResult
+12:15:18.862 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+12:15:18.979 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+12:15:19.015 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Catalog']
+12:15:19.227 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Catalog']
+12:15:19.343 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: input[name='name']
+12:15:19.385 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: input[name='name']
+12:15:19.465 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: input[name='name']
+12:15:19.493 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: input[name='name']
+12:15:19.530 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: input[name='name']
+12:15:19.549 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: input[name='name']
+12:15:22.885 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Search']
+12:15:23.213 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Search']
+12:15:24.891 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //p[contains(text(),'No products available')]
+12:15:24.921 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //p[contains(text(),'No products available')]
+12:15:25.038 [main] INFO  com.tabakshop.tests.TestBase - Start test: verifyCatalogPageLoaded
+12:15:26.859 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+12:15:27.070 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+12:15:27.073 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Catalog']
+12:15:27.123 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Catalog']
+12:15:27.249 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: h3._catalogTitle_1ug0p_18
+12:15:27.282 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: h3._catalogTitle_1ug0p_18
+12:15:27.304 [main] INFO  com.tabakshop.tests.TestBase - Start test: verifyGoToHomeButton
+12:15:30.004 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+12:15:30.854 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+12:15:30.857 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Catalog']
+12:15:30.899 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Catalog']
+12:15:31.299 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Go to Home']
+12:15:31.338 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Go to Home']
+12:15:31.532 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //p[contains(text(),'Welcome to Tobacco!')]
+12:15:31.555 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //p[contains(text(),'Welcome to Tobacco!')]
+12:15:31.577 [main] INFO  com.tabakshop.tests.TestBase - Start test: verifyProductSearchFullName
+12:15:34.607 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+12:15:34.916 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+12:15:34.921 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Catalog']
+12:15:34.978 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Catalog']
+12:15:35.133 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: input[name='name']
+12:15:35.166 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: input[name='name']
+12:15:35.244 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: input[name='name']
+12:15:35.265 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: input[name='name']
+12:15:35.315 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: input[name='name']
+12:15:35.333 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: input[name='name']
+12:15:38.884 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Search']
+12:15:40.171 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Search']
+12:15:40.619 [main] INFO  com.tabakshop.utils.MyListener - Before find elements ->By.xpath: //div[@class='_cardContainer_1ug0p_124']//h5[contains(@class, '_cardTitle_1vqdh_56')]
+12:15:40.718 [main] INFO  com.tabakshop.utils.MyListener - After find elements ->By.xpath: //div[@class='_cardContainer_1ug0p_124']//h5[contains(@class, '_cardTitle_1vqdh_56')]
+12:15:40.719 [main] INFO  com.tabakshop.utils.MyListener - List size is 1
+12:15:40.721 [main] INFO  com.tabakshop.utils.MyListener - Before find elements ->By.xpath: //div[@class='_cardContainer_1ug0p_124']//h5[contains(@class, '_cardTitle_1vqdh_56')]
+12:15:40.753 [main] INFO  com.tabakshop.utils.MyListener - After find elements ->By.xpath: //div[@class='_cardContainer_1ug0p_124']//h5[contains(@class, '_cardTitle_1vqdh_56')]
+12:15:40.754 [main] INFO  com.tabakshop.utils.MyListener - List size is 1
+12:15:40.977 [main] INFO  com.tabakshop.tests.TestBase - Start test: verifyProductSearchPartialName
+12:15:44.257 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+12:15:44.582 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+12:15:44.584 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Catalog']
+12:15:44.668 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Catalog']
+12:15:44.767 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: input[name='name']
+12:15:44.796 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: input[name='name']
+12:15:44.867 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: input[name='name']
+12:15:44.883 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: input[name='name']
+12:15:44.920 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: input[name='name']
+12:15:44.937 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: input[name='name']
+12:15:47.991 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Search']
+12:15:48.897 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Search']
+12:15:52.437 [main] INFO  com.tabakshop.utils.MyListener - Before find elements ->By.xpath: //div[@class='_cardContainer_1ug0p_124']//h5[contains(@class, '_cardTitle_1vqdh_56')]
+12:15:53.804 [main] INFO  com.tabakshop.utils.MyListener - After find elements ->By.xpath: //div[@class='_cardContainer_1ug0p_124']//h5[contains(@class, '_cardTitle_1vqdh_56')]
+12:15:53.806 [main] INFO  com.tabakshop.utils.MyListener - List size is 2
+12:15:53.899 [main] INFO  com.tabakshop.tests.TestBase - Start test: verifySortByPriceAscending
+12:15:56.291 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+12:15:56.593 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+12:15:56.596 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Catalog']
+12:15:56.674 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Catalog']
+12:15:59.807 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(),'Sort by Price Ascending')]
+12:16:01.572 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(),'Sort by Price Ascending')]
+12:16:05.279 [main] INFO  com.tabakshop.utils.MyListener - Before find elements ->By.xpath: //p[contains(@class, '_cardPrice_1vqdh_64')]
+12:16:05.858 [main] INFO  com.tabakshop.utils.MyListener - After find elements ->By.xpath: //p[contains(@class, '_cardPrice_1vqdh_64')]
+12:16:05.858 [main] INFO  com.tabakshop.utils.MyListener - List size is 8
+12:16:06.073 [main] INFO  com.tabakshop.tests.TestBase - Start test: verifySortByPriceDescending
+12:16:08.191 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+12:16:08.659 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+12:16:08.679 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Catalog']
+12:16:08.783 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Catalog']
+12:16:12.133 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Sort by Price Descending']
+12:16:14.993 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Sort by Price Descending']
+12:16:25.425 [main] INFO  com.tabakshop.utils.MyListener - Before find elements ->By.xpath: //p[contains(@class, '_cardPrice_1vqdh_64')]
+12:16:25.522 [main] INFO  com.tabakshop.utils.MyListener - After find elements ->By.xpath: //p[contains(@class, '_cardPrice_1vqdh_64')]
+12:16:25.522 [main] INFO  com.tabakshop.utils.MyListener - List size is 8
+12:16:25.649 [main] INFO  com.tabakshop.tests.TestBase - Start test: verifyViewDetailsButton
+12:16:27.981 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+12:16:28.405 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+12:16:28.407 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Catalog']
+12:16:28.521 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Catalog']
+12:16:33.924 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //h5[text()='Dunhill']/ancestor::div[contains(@class, '_card_1vqdh_2')]//button[contains(text(),'View Details')]
+12:16:35.674 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //h5[text()='Dunhill']/ancestor::div[contains(@class, '_card_1vqdh_2')]//button[contains(text(),'View Details')]
+12:16:42.433 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //h1[contains(text(),'Dunhill')]
+12:16:42.462 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //h1[contains(text(),'Dunhill')]
