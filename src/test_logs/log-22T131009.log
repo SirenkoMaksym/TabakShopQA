@@ -1,0 +1,32 @@
+13:10:10.555 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\QA\TabakShopQA\src\test\resources\testingFox.xml
+
+13:10:13.070 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+13:10:13.318 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+13:10:13.375 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Catalog']
+13:10:13.440 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Catalog']
+13:10:13.521 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: input[name='name']
+13:10:13.582 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: input[name='name']
+13:10:13.636 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: input[name='name']
+13:10:13.657 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: input[name='name']
+13:10:13.687 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: input[name='name']
+13:10:13.705 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: input[name='name']
+13:10:16.911 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Search']
+13:10:16.996 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Search']
+13:10:18.468 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //p[contains(text(),'No products available')]
+13:10:18.491 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //p[contains(text(),'No products available')]
+13:10:18.525 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Catalog']
+13:10:22.848 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+13:10:22.848 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+13:10:22.848 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Method--> findElement
+13:10:22.848 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+13:10:22.850 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.WebDriverException: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=127.0.6533.120)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9dd27939a00c403fc40334b129f71747, findElement {value=//button[text()='Catalog'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53100}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53100/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9dd27939a00c403fc40334b129f71747
+13:10:22.851 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1362.png

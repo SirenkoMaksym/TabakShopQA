@@ -1,0 +1,51 @@
+22:27:08.137 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\QA\TabakShopQA\src\test\resources\testingFox.xml
+
+22:27:08.229 [TestNG-tests-1] INFO  com.tabakshop.tests.TestBase - Start test: searchProductsNegativeResult
+22:27:10.562 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+22:27:10.815 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+22:27:10.840 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Catalog']
+22:27:10.904 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Catalog']
+22:27:10.995 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: input[name='name']
+22:27:11.024 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: input[name='name']
+22:27:11.088 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: input[name='name']
+22:27:11.112 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: input[name='name']
+22:27:11.143 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: input[name='name']
+22:27:11.161 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: input[name='name']
+22:27:14.199 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Search']
+22:27:14.241 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Search']
+22:27:15.310 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //p[contains(text(),'No products available')]
+22:27:15.340 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //p[contains(text(),'No products available')]
+22:27:15.751 [TestNG-tests-1] INFO  com.tabakshop.tests.TestBase - Test result: PASSED searchProductsNegativeResult
+22:27:15.751 [TestNG-tests-1] INFO  com.tabakshop.tests.TestBase - ************************************************************
+22:27:15.774 [TestNG-tests-1] INFO  com.tabakshop.tests.TestBase - Start test: verifyCatalogPageLoaded
+22:27:17.425 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+22:27:17.667 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+22:27:17.669 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Catalog']
+22:27:17.704 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Catalog']
+22:27:17.821 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: h3._catalogTitle_1ug0p_18
+22:27:17.858 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: h3._catalogTitle_1ug0p_18
+22:27:18.146 [TestNG-tests-1] INFO  com.tabakshop.tests.TestBase - Test result: PASSED verifyCatalogPageLoaded
+22:27:18.146 [TestNG-tests-1] INFO  com.tabakshop.tests.TestBase - ************************************************************
+22:27:18.148 [TestNG-tests-1] INFO  com.tabakshop.tests.TestBase - Start test: verifyGoToHomeButton
+22:27:19.289 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+22:27:19.533 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+22:27:19.534 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Catalog']
+22:27:19.560 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Catalog']
+22:27:19.671 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Go to Home']
+22:27:19.700 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Go to Home']
+22:27:19.770 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //p[contains(text(),'Welcome to Tobacco!')]
+22:27:19.802 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //p[contains(text(),'Welcome to Tobacco!')]
+22:27:20.027 [TestNG-tests-1] INFO  com.tabakshop.tests.TestBase - Test result: PASSED verifyGoToHomeButton
+22:27:20.027 [TestNG-tests-1] INFO  com.tabakshop.tests.TestBase - ************************************************************
+22:27:20.028 [TestNG-tests-1] INFO  com.tabakshop.tests.TestBase - Start test: verifyProductSearchFullName
+22:27:21.266 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+22:27:21.488 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+22:27:21.493 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Catalog']
+22:27:21.535 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Catalog']
+22:27:21.647 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: input[name='name']
+22:27:21.676 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: input[name='name']
+22:27:21.738 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: input[name='name']
+22:27:21.758 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: input[name='name']
+22:27:21.784 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: input[name='name']
+22:27:21.799 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: input[name='name']

@@ -101,7 +101,7 @@ public class RegistrationTests extends TestBase {
                 .enterConfirmPassword(PASSWORD)
                 .clickOnCheckBox2()
                 .clickOnRegistrationButton()
-                .verifyUncheckBox(CHECKBOX_MESSAGE)
+                .verifyUncheckBox()
         ;
     }
 

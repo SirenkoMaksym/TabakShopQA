@@ -1,0 +1,32 @@
+23:30:00.041 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+23:30:00.512 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\QA\TabakShopQA\src\test\resources\testingEdge.xml
+
+23:30:00.600 [main] INFO  com.tabakshop.tests.TestBase - Initializing test with browser: edge
+23:30:00.600 [main] INFO  com.tabakshop.tests.TestBase - Start test: 
+23:30:03.675 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+23:30:03.826 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+23:30:03.869 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[contains(text(),'Register')]
+23:30:04.124 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[contains(text(),'Register')]
+23:30:04.280 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.tagName: h2
+23:30:04.346 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.tagName: h2
+23:30:05.913 [main] INFO  com.tabakshop.tests.TestBase - Test result: PASSED checkingFunctionalityRegistrationButton
+23:30:05.913 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************
+23:30:05.915 [main] INFO  com.tabakshop.tests.TestBase - Initializing test with browser: edge
+23:30:05.915 [main] INFO  com.tabakshop.tests.TestBase - Start test: 
+23:30:07.354 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+23:30:07.572 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+23:30:07.578 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[contains(text(),'Register')]
+23:30:07.663 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[contains(text(),'Register')]
+23:30:07.822 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+23:30:07.902 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+23:30:07.982 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+23:30:08.011 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+23:30:08.067 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+23:30:08.087 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+23:30:08.152 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+23:30:08.168 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+23:30:08.197 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+23:30:08.214 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+23:30:08.238 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+23:30:08.255 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password

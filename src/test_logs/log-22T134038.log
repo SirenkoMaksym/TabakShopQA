@@ -1,0 +1,71 @@
+13:40:39.446 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\QA\TabakShopQA\src\test\resources\testingEdge.xml
+
+13:40:39.571 [TestNG-tests-1] INFO  com.tabakshop.tests.TestBase - Start test: checkingFunctionalityRegistrationButton
+13:40:41.839 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+13:40:42.060 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+13:40:42.331 [TestNG-tests-1] ERROR com.tabakshop.tests.TestBase - Test result FAILED checkingFunctionalityRegistrationButton
+13:40:42.332 [TestNG-tests-1] INFO  com.tabakshop.tests.TestBase - ************************************************************
+13:40:42.355 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[contains(text(),'Register')]
+13:40:42.370 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+13:40:42.370 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+13:40:42.370 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Method--> findElement
+13:40:42.370 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+13:40:42.371 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//a[contains(text(),'Register')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54343}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54343/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+13:40:42.371 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1541.png
+13:40:42.827 [TestNG-tests-1] INFO  com.tabakshop.tests.TestBase - Start test: checkingFunctionalityRegistrationButton
+13:40:44.146 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+13:40:44.381 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+13:40:44.655 [TestNG-tests-1] ERROR com.tabakshop.tests.TestBase - Test result FAILED checkingFunctionalityRegistrationButton
+13:40:44.656 [TestNG-tests-1] INFO  com.tabakshop.tests.TestBase - ************************************************************
+13:40:44.660 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+13:40:44.661 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+13:40:44.662 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+13:40:44.662 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Method--> findElement
+13:40:44.662 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+13:40:44.662 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=link text, value=Sign in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54364}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54364/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+13:40:44.662 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1839.png
+13:40:44.686 [TestNG-tests-1] INFO  com.tabakshop.tests.TestBase - Start test: CheckSortingProductsByPriceAscending
+13:40:45.831 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+13:40:46.047 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+13:40:46.238 [TestNG-tests-1] ERROR com.tabakshop.tests.TestBase - Test result FAILED CheckSortingProductsByPriceAscending
+13:40:46.238 [TestNG-tests-1] INFO  com.tabakshop.tests.TestBase - ************************************************************
+13:40:46.243 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.linkText: Sign in
+13:40:46.244 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+13:40:46.244 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+13:40:46.244 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Method--> findElement
+13:40:46.244 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+13:40:46.244 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=link text, value=Sign in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54385}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54385/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+13:40:46.244 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1636.png
+13:40:46.268 [TestNG-tests-1] INFO  com.tabakshop.tests.TestBase - Start test: searchProductsNegativeResult
+13:40:47.442 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+13:40:47.567 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+13:40:47.773 [TestNG-tests-1] ERROR com.tabakshop.tests.TestBase - Test result FAILED searchProductsNegativeResult
+13:40:47.773 [TestNG-tests-1] INFO  com.tabakshop.tests.TestBase - ************************************************************
+13:40:47.774 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Catalog']
+13:40:47.775 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+13:40:47.775 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+13:40:47.775 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Method--> findElement
+13:40:47.775 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+13:40:47.775 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//button[text()='Catalog']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54405}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54405/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+13:40:47.775 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1274.png

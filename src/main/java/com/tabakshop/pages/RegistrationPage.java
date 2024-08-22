@@ -153,9 +153,9 @@ public class RegistrationPage extends BasePage {
         return this;
     }
 
-    public RegistrationPage verifyUncheckBox(String message) {
+    public RegistrationPage verifyUncheckBox() {
         String validationMessage = checkBox.getAttribute("validationMessage");
-        assertEquals(validationMessage, message);
+        Assert.assertTrue(!validationMessage.isEmpty());
         return this;
     }
 

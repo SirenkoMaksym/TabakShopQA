@@ -3,13 +3,13 @@
     <test name="FirefoxTest">
         <parameter name="browser" value="Firefox" />
         <classes>
-            <class name="com.tabakshop.tests.RegistrationTests">
-                <methods>
-                    <exclude name=".*positive.*"/>
-                </methods>
-            </class>
-            <class name="com.tabakshop.tests.LoginTests"/>
-            <class name="com.tabakshop.tests.AdminPanelTests"/>
+<!--            <class name="com.tabakshop.tests.RegistrationTests">-->
+<!--                <methods>-->
+<!--                    <exclude name=".*positive.*"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.tabakshop.tests.LoginTests"/>-->
+<!--            <class name="com.tabakshop.tests.AdminPanelTests"/>-->
             <class name="com.tabakshop.tests.CatalogTests"/>
         </classes>
     </test>

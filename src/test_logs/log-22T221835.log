@@ -1,0 +1,20 @@
+22:18:36.677 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\IMT - Teilnehmer\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+22:18:36.791 [main] INFO  com.tabakshop.tests.TestBase - Start test: searchProductsNegativeResult
+22:18:39.746 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+22:18:39.995 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+22:18:40.027 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Catalog']
+22:18:40.118 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Catalog']
+22:18:40.229 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: input[name='name']
+22:18:40.268 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: input[name='name']
+22:18:40.348 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: input[name='name']
+22:18:40.371 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: input[name='name']
+22:18:40.412 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: input[name='name']
+22:18:40.432 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: input[name='name']
+22:18:43.493 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Search']
+22:18:45.191 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Search']
+22:18:46.310 [main] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //p[contains(text(),'No products available')]
+22:18:46.432 [main] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //p[contains(text(),'No products available')]
+22:18:47.980 [main] INFO  com.tabakshop.tests.TestBase - Test result: PASSED searchProductsNegativeResult
+22:18:47.981 [main] INFO  com.tabakshop.tests.TestBase - ************************************************************

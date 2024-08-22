@@ -8,6 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringDecorator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.annotations.Parameters;
 
 import java.time.Duration;
 
@@ -17,9 +18,10 @@ public class ApplicationManager {
     WebDriver driver;
     Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
 
-    public ApplicationManager(String browser ){
+    public ApplicationManager(String browser){
         this.browser = browser;
     }
+
     public WebDriver startTest() {
         if (browser.equalsIgnoreCase("chrome")) {
             ChromeOptions options = new ChromeOptions();
@@ -54,4 +56,3 @@ public class ApplicationManager {
         return driver;
     }
 }
-

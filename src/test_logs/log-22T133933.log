@@ -1,0 +1,4 @@
+13:39:34.388 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\QA\TabakShopQA\src\test\resources\testingFox.xml
+
+13:39:34.501 [TestNG-tests-1] INFO  com.tabakshop.tests.TestBase - Start test: searchProductsNegativeResult

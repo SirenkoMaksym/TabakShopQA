@@ -1,0 +1,32 @@
+13:11:24.500 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\QA\TabakShopQA\src\test\resources\testingFox.xml
+
+13:11:26.846 [main] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+13:11:27.076 [main] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+13:11:27.242 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Catalog']
+13:11:27.271 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Catalog']
+13:11:27.353 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: input[name='name']
+13:11:27.387 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: input[name='name']
+13:11:27.453 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: input[name='name']
+13:11:27.486 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: input[name='name']
+13:11:27.526 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.cssSelector: input[name='name']
+13:11:27.546 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.cssSelector: input[name='name']
+13:11:30.688 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Search']
+13:11:31.187 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[text()='Search']
+13:11:32.348 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //p[contains(text(),'No products available')]
+13:11:32.373 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //p[contains(text(),'No products available')]
+13:11:32.403 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[text()='Catalog']
+13:11:42.425 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Something went wrong!!!
+13:11:42.425 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+13:11:42.425 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Method--> findElement
+13:11:42.425 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - =======================================================================================
+13:11:42.428 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Target exception org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Catalog']"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb443abe73814d503b68fa95dc160f70, findElement {using=xpath, value=//button[text()='Catalog']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53201/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fb443abe73814d503b68fa95dc160f70
+13:11:42.429 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Screenshot with error --> screenshots/screen_1849.png

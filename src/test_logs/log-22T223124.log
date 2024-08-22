@@ -1,0 +1,67 @@
+22:31:24.858 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\QA\TabakShopQA\src\test\resources\testingEdge.xml
+
+22:31:27.268 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+22:31:27.509 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+22:31:27.568 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[contains(text(),'Register')]
+22:31:27.631 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[contains(text(),'Register')]
+22:31:27.706 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.tagName: h2
+22:31:27.785 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.tagName: h2
+22:31:29.418 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+22:31:29.671 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+22:31:29.674 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[contains(text(),'Register')]
+22:31:29.732 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[contains(text(),'Register')]
+22:31:29.839 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+22:31:29.872 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+22:31:29.928 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+22:31:29.952 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+22:31:29.990 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+22:31:30.017 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+22:31:30.099 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+22:31:30.118 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+22:31:30.150 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+22:31:30.178 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+22:31:30.206 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+22:31:30.219 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+22:31:30.262 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+22:31:30.277 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+22:31:30.305 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+22:31:30.326 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+22:31:30.349 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+22:31:30.363 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+22:31:30.404 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[4]//input[@type='checkbox']
+22:31:30.428 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[4]//input[@type='checkbox']
+22:31:30.457 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[5]//input[@type='checkbox']
+22:31:30.476 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[5]//input[@type='checkbox']
+22:31:32.509 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //button[contains(text(), 'Register')]
+22:31:32.527 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //button[contains(text(), 'Register')]
+22:31:32.575 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //main/div[1]/div
+22:31:32.632 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //main/div[1]/div
+22:31:33.166 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //main/div[1]/div
+22:31:33.184 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //main/div[1]/div
+22:31:34.703 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+22:31:34.944 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After navigate to URL --> https://smoke-shop-68y5q.ondigitalocean.app/
+22:31:34.947 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //a[contains(text(),'Register')]
+22:31:34.988 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //a[contains(text(),'Register')]
+22:31:35.627 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+22:31:35.660 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+22:31:35.717 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+22:31:35.757 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+22:31:35.794 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: email
+22:31:35.812 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: email
+22:31:35.960 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+22:31:35.981 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+22:31:36.019 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+22:31:36.035 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+22:31:36.056 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: password
+22:31:36.069 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: password
+22:31:36.109 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+22:31:36.125 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+22:31:36.152 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+22:31:36.166 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+22:31:36.193 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.id: confirmPassword
+22:31:36.208 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.id: confirmPassword
+22:31:36.260 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[4]//input[@type='checkbox']
+22:31:36.276 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[4]//input[@type='checkbox']
+22:31:36.303 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - Before find element ->By.xpath: //form/div[5]//input[@type='checkbox']
+22:31:36.322 [TestNG-tests-1] INFO  com.tabakshop.utils.MyListener - After find element ->By.xpath: //form/div[5]//input[@type='checkbox']
